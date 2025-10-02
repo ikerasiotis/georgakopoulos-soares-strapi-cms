@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_research_resources",
+  "info": {
+    "displayName": "Resource",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "accent": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary", "accent"],
+      "default": "primary"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research.link"
+    }
+  }
+}

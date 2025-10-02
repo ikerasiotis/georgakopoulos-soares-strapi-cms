@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_research_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

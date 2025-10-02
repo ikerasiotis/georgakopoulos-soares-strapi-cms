@@ -580,6 +580,90 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiPublicationPublication extends Struct.CollectionTypeSchema {
+  collectionName: 'publications';
+  info: {
+    description: 'Scientific publication entries sourced from papers_full.json';
+    displayName: 'Publication';
+    pluralName: 'publications';
+    singularName: 'publication';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    authors: Schema.Attribute.Component<'publication.author', true>;
+    citations: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    isVisible: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    link: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'https://example.com/publication'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::publication.publication'
+    > &
+      Schema.Attribute.Private;
+    position: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<1>;
+    publicationAuthors: Schema.Attribute.Component<'publication.author', true>;
+    publicationSummary: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'Extended summary of the publication including venue, year, and key findings.'>;
+    publishedAt: Schema.Attribute.DateTime;
+    resources: Schema.Attribute.Component<'publication.resource', true>;
+    resultId: Schema.Attribute.String &
+      Schema.Attribute.Unique &
+      Schema.Attribute.DefaultTo<'sample-result-id'>;
+    snippet: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'This is a short teaser describing the publication in one or two sentences.'>;
+    title: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'Sample Publication Title'>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiResearchPageResearchPage extends Struct.SingleTypeSchema {
+  collectionName: 'research_pages';
+  info: {
+    description: 'Research landing page content';
+    displayName: 'Research Page';
+    pluralName: 'research-pages';
+    singularName: 'research-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    approachHighlights: Schema.Attribute.Component<'research.highlight', true>;
+    approachParagraphs: Schema.Attribute.Component<'research.paragraph', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    focusAreas: Schema.Attribute.Component<'research.focus-area', true>;
+    heroSubtitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Exploring the genomic landscape of cancer through computational approaches'>;
+    heroTitle: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'Research Areas'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::research-page.research-page'
+    > &
+      Schema.Attribute.Private;
+    methods: Schema.Attribute.Component<'research.method', true>;
+    publishedAt: Schema.Attribute.DateTime;
+    resources: Schema.Attribute.Component<'research.resource', true>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiTeamPageTeamPage extends Struct.SingleTypeSchema {
   collectionName: 'team_pages';
   info: {
@@ -1143,6 +1227,8 @@ declare module '@strapi/strapi' {
       'admin::user': AdminUser;
       'api::contact-info.contact-info': ApiContactInfoContactInfo;
       'api::global-setting.global-setting': ApiGlobalSettingGlobalSetting;
+      'api::publication.publication': ApiPublicationPublication;
+      'api::research-page.research-page': ApiResearchPageResearchPage;
       'api::team-page.team-page': ApiTeamPageTeamPage;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

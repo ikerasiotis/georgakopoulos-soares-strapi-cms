@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_research_tags",
+  "info": {
+    "displayName": "Tag",
+    "icon": "tag"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

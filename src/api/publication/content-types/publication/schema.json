@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications",
+  "info": {
+    "singularName": "publication",
+    "pluralName": "publications",
+    "displayName": "Publication",
+    "description": "Scientific publication entries sourced from papers_full.json"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "position": {
+      "type": "integer",
+      "default": 1
+    },
+    "title": {
+      "type": "string",
+      "default": "Sample Publication Title",
+      "required": true
+    },
+    "resultId": {
+      "type": "string",
+      "default": "sample-result-id",
+      "unique": true
+    },
+    "link": {
+      "type": "string",
+      "default": "https://example.com/publication"
+    },
+    "snippet": {
+      "type": "text",
+      "default": "This is a short teaser describing the publication in one or two sentences."
+    },
+    "publicationSummary": {
+      "type": "text",
+      "default": "Extended summary of the publication including venue, year, and key findings."
+    },
+    "publicationAuthors": {
+      "type": "component",
+      "component": "publication.author",
+      "repeatable": true
+    },
+    "authors": {
+      "type": "component",
+      "component": "publication.author",
+      "repeatable": true
+    },
+    "resources": {
+      "type": "component",
+      "component": "publication.resource",
+      "repeatable": true
+    },
+    "citations": {
+      "type": "integer",
+      "default": 0
+    },
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

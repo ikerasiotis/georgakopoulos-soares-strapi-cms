@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_publication_resources",
+  "info": {
+    "displayName": "Resource",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Publisher Website"
+    },
+    "fileFormat": {
+      "type": "string",
+      "default": "PDF"
+    },
+    "link": {
+      "type": "string",
+      "default": "https://example.com/resource.pdf"
+    }
+  }
+}

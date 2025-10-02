@@ -1,0 +1,1455 @@
+[
+  {
+    "position": 1,
+    "title": "Minimum-Cost Synthetic Genome Planning: An Algorithmic Framework",
+    "result_id": "Utu_WKs9mmwJ",
+    "link": "https://arxiv.org/abs/2509.06234",
+    "snippet": "25 days ago - As synthetic genomics scales toward the construction of increasingly larger genomes, computational strategies are needed to address technical feasibility. We introduce …",
+    "publication_info": {
+      "summary": "…, I Mouratidis, I Georgakopoulos-Soares - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "authors": [
+        {
+          "name": "I Mouratidis",
+          "link": "https://scholar.google.com/citations?user=UowZjXsAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UowZjXsAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "UowZjXsAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "I Mouratidis",
+        "link": "https://scholar.google.com/citations?user=UowZjXsAAAAJ&hl=en&oi=sra",
+        "author_id": "UowZjXsAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "arxiv.org",
+        "file_format": "PDF",
+        "link": "https://arxiv.org/pdf/2509.06234"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Utu_WKs9mmwJ",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:Utu_WKs9mmwJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AUtu_WKs9mmwJ%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "versions": {
+        "total": 2,
+        "link": "https://scholar.google.com/scholar?cluster=7825635108647328594&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "7825635108647328594",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=7825635108647328594&engine=google_scholar&hl=en&scisbd=1"
+      },
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Utu_WKs9mmwJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 2,
+    "title": "Investigating DNA words and their distributions across the tree of life",
+    "result_id": "bRa_FItnZOwJ",
+    "link": "https://arxiv.org/abs/2509.05539",
+    "snippet": "27 days ago - The frequency distributions of DNA k-mers are shaped by fundamental biological processes and offer a window into genome structure and evolution. Inspired by …",
+    "publication_info": {
+      "summary": "…, A Karatzikos, I Georgakopoulos-Soares - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "authors": [
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "arxiv.org",
+        "file_format": "PDF",
+        "link": "https://arxiv.org/pdf/2509.05539"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bRa_FItnZOwJ",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:bRa_FItnZOwJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AbRa_FItnZOwJ%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "versions": {
+        "total": 2,
+        "link": "https://scholar.google.com/scholar?cluster=17033853537668241005&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "17033853537668241005",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=17033853537668241005&engine=google_scholar&hl=en&scisbd=1"
+      },
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:bRa_FItnZOwJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 3,
+    "title": "63798 Transcriptome Changes in Hair Follicles Following Transplantation",
+    "result_id": "AcpwtT-raF8J",
+    "link": "https://www.jaad.org/article/S0190-9622(25)02046-8/abstract",
+    "snippet": "31 days ago - Background: Hair loss impacts millions, with over 50 million men and 30 million women affected in the United States alone. Androgenetic alopecia (AGA), commonly …",
+    "publication_info": {
+      "summary": "…, P Ziros, I Habeos, I Georgakopoulos-Soares - Journal of the American …, 2025 - jaad.org",
+      "authors": [
+        {
+          "name": "P Ziros",
+          "link": "https://scholar.google.com/citations?user=BXcYihcAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BXcYihcAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BXcYihcAAAAJ"
+        },
+        {
+          "name": "I Habeos",
+          "link": "https://scholar.google.com/citations?user=EUm5lZEAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=EUm5lZEAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "EUm5lZEAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "P Ziros",
+        "link": "https://scholar.google.com/citations?user=BXcYihcAAAAJ&hl=en&oi=sra",
+        "author_id": "BXcYihcAAAAJ"
+      },
+      {
+        "name": "I Habeos",
+        "link": "https://scholar.google.com/citations?user=EUm5lZEAAAAJ&hl=en&oi=sra",
+        "author_id": "EUm5lZEAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=AcpwtT-raF8J",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:AcpwtT-raF8J:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AAcpwtT-raF8J%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "versions": {
+        "total": 2,
+        "link": "https://scholar.google.com/scholar?cluster=6874933121296419329&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "6874933121296419329",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=6874933121296419329&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 4,
+    "title": "Quadrupia provides a comprehensive catalog of G-quadruplexes across genomes from the tree of life",
+    "result_id": "MP1PncZMgFkJ",
+    "link": "https://genome.cshlp.org/content/early/2025/08/25/gr.279790.124.abstract",
+    "snippet": "36 days ago - G-quadruplex DNA structures exhibit a profound influence on essential biological processes, including transcription, replication, telomere maintenance, and …",
+    "publication_info": {
+      "summary": "…, GA Pavlopoulos, I Georgakopoulos-Soares - Genome …, 2025 - genome.cshlp.org",
+      "authors": [
+        {
+          "name": "GA Pavlopoulos",
+          "link": "https://scholar.google.com/citations?user=3bL-H00AAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3bL-H00AAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "3bL-H00AAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "GA Pavlopoulos",
+        "link": "https://scholar.google.com/citations?user=3bL-H00AAAAJ&hl=en&oi=sra",
+        "author_id": "3bL-H00AAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "cshlp.org",
+        "file_format": "PDF",
+        "link": "https://genome.cshlp.org/content/early/2025/08/25/gr.279790.124.full.pdf"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=MP1PncZMgFkJ",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:MP1PncZMgFkJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AMP1PncZMgFkJ%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "versions": {
+        "total": 2,
+        "link": "https://scholar.google.com/scholar?cluster=6449239082321050928&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "6449239082321050928",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=6449239082321050928&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 5,
+    "title": "Angiogenesis-Related Genes Predict Outcomes and Immune Traits in Skin Melanoma",
+    "result_id": "aVxiEWbhoUgJ",
+    "link": "https://www.mdpi.com/1422-0067/26/17/8254",
+    "snippet": "37 days ago - The interplay between angiogenesis and the immune system is intricate, with the potential to either enhance or repress the immune response. Angiogenesis-related …",
+    "publication_info": {
+      "summary": "L Vladova, I Georgakopoulos-Soares… - International Journal of …, 2025 - mdpi.com",
+      "authors": [
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "mdpi.com",
+        "file_format": "HTML",
+        "link": "https://www.mdpi.com/1422-0067/26/17/8254"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=aVxiEWbhoUgJ",
+      "html_version": "https://www.mdpi.com/1422-0067/26/17/8254",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:aVxiEWbhoUgJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AaVxiEWbhoUgJ%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "versions": {
+        "total": 6,
+        "link": "https://scholar.google.com/scholar?cluster=5233712070475799657&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "5233712070475799657",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=5233712070475799657&engine=google_scholar&hl=en&scisbd=1"
+      },
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:aVxiEWbhoUgJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 6,
+    "title": "Taxonomic quasi‐primes: peptides charting lineage‐specific adaptations and disease‐relevant loci",
+    "result_id": "N3sk7L1er4cJ",
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.70241",
+    "snippet": "38 days ago - The identification of succinct, universal fingerprints that enable the characterization of individual taxonomies can reveal insights into trait development. Here …",
+    "publication_info": {
+      "summary": "…, DV Chartoumpekis, I Georgakopoulos‐Soares - Protein …, 2025 - Wiley Online Library",
+      "authors": [
+        {
+          "name": "DV Chartoumpekis",
+          "link": "https://scholar.google.com/citations?user=nev2h8YAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=nev2h8YAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "nev2h8YAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos‐Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "DV Chartoumpekis",
+        "link": "https://scholar.google.com/citations?user=nev2h8YAAAAJ&hl=en&oi=sra",
+        "author_id": "nev2h8YAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos‐Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "wiley.com",
+        "file_format": "PDF",
+        "link": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/pro.70241"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=N3sk7L1er4cJ",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:N3sk7L1er4cJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AN3sk7L1er4cJ%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "versions": {
+        "total": 5,
+        "link": "https://scholar.google.com/scholar?cluster=9777137485848279863&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "9777137485848279863",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=9777137485848279863&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 7,
+    "title": "nf-core/proteinfamilies: A scalable pipeline for the generation of protein families",
+    "result_id": "6E9D2UeBxAUJ",
+    "link": "https://www.biorxiv.org/content/10.1101/2025.08.12.670010.abstract",
+    "snippet": "46 days ago - The growth of metagenomics-derived amino acid sequence data has transformed our understanding of protein function, microbial diversity and evolutionary …",
+    "publication_info": {
+      "summary": "…, A Buluc, N Kyrpides, I Georgakopoulos-Soares… - bioRxiv, 2025 - biorxiv.org",
+      "authors": [
+        {
+          "name": "A Buluc",
+          "link": "https://scholar.google.com/citations?user=hRB3wSgAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=hRB3wSgAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "hRB3wSgAAAAJ"
+        },
+        {
+          "name": "N Kyrpides",
+          "link": "https://scholar.google.com/citations?user=0FuZRPYAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0FuZRPYAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "0FuZRPYAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "A Buluc",
+        "link": "https://scholar.google.com/citations?user=hRB3wSgAAAAJ&hl=en&oi=sra",
+        "author_id": "hRB3wSgAAAAJ"
+      },
+      {
+        "name": "N Kyrpides",
+        "link": "https://scholar.google.com/citations?user=0FuZRPYAAAAJ&hl=en&oi=sra",
+        "author_id": "0FuZRPYAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "biorxiv.org",
+        "file_format": "PDF",
+        "link": "https://www.biorxiv.org/content/biorxiv/early/2025/08/16/2025.08.12.670010.full.pdf"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=6E9D2UeBxAUJ",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:6E9D2UeBxAUJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3A6E9D2UeBxAUJ%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:6E9D2UeBxAUJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 8,
+    "title": "From nonexistence to novel applications: Nullomers and related k-mer based concepts in bioinformatics",
+    "result_id": "t1yZ7hAMXLIJ",
+    "link": "https://pure.psu.edu/en/publications/from-nonexistence-to-novel-applications-nullomers-and-related-k-m",
+    "snippet": "83 days ago - Underrepresented k-mer sequences, provide insights into evolutionary constraints, molecular mechanisms, and organismal fitness. Analysis of these sequences …",
+    "publication_info": {
+      "summary": "CSY Chan, I Georgakopoulos-Soares - Advances in Clinical …, 2025 - pure.psu.edu",
+      "authors": [
+        {
+          "name": "CSY Chan",
+          "link": "https://scholar.google.com/citations?user=uqpLH6IAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=uqpLH6IAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "uqpLH6IAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "CSY Chan",
+        "link": "https://scholar.google.com/citations?user=uqpLH6IAAAAJ&hl=en&oi=sra",
+        "author_id": "uqpLH6IAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=t1yZ7hAMXLIJ",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:t1yZ7hAMXLIJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3At1yZ7hAMXLIJ%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:t1yZ7hAMXLIJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 9,
+    "title": "Simultaneous epigenomic profiling and regulatory activity measurement using e2MPRA",
+    "result_id": "vSCvQg25-QYJ",
+    "link": "https://www.biorxiv.org/content/10.1101/2025.06.26.661849.abstract",
+    "snippet": "93 days ago - C is-regulatory elements (CREs) have a major effect on phenotypes including disease. They are identified in a genome-wide manner by analyzing the binding of …",
+    "publication_info": {
+      "summary": "Z Zhang, I Georgakopoulos-Soares, G Bourque… - bioRxiv, 2025 - biorxiv.org",
+      "authors": [
+        {
+          "name": "Z Zhang",
+          "link": "https://scholar.google.com/citations?user=Myy95bAAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Myy95bAAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "Myy95bAAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        },
+        {
+          "name": "G Bourque",
+          "link": "https://scholar.google.com/citations?user=Et_RonIAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Et_RonIAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "Et_RonIAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Z Zhang",
+        "link": "https://scholar.google.com/citations?user=Myy95bAAAAAJ&hl=en&oi=sra",
+        "author_id": "Myy95bAAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      },
+      {
+        "name": "G Bourque",
+        "link": "https://scholar.google.com/citations?user=Et_RonIAAAAJ&hl=en&oi=sra",
+        "author_id": "Et_RonIAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "biorxiv.org",
+        "file_format": "PDF",
+        "link": "https://www.biorxiv.org/content/biorxiv/early/2025/06/30/2025.06.26.661849.full.pdf"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=vSCvQg25-QYJ",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:vSCvQg25-QYJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AvSCvQg25-QYJ%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:vSCvQg25-QYJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 10,
+    "title": "Landscape and mutational dynamics of G-quadruplexes in the complete human genome and in haplotypes of diverse ancestry",
+    "result_id": "2bt8lo4HLQsJ",
+    "link": "https://www.biorxiv.org/content/10.1101/2025.06.17.660256.abstract",
+    "snippet": "100 days ago - Abstract G-quadruplexes (G4s) are alternative DNA structures with diverse biological roles, but their examination in highly repetitive parts of the human genome has …",
+    "publication_info": {
+      "summary": "…, KM Vasquez, CK Kwok, I Georgakopoulos-Soares - bioRxiv, 2025 - biorxiv.org",
+      "authors": [
+        {
+          "name": "CK Kwok",
+          "link": "https://scholar.google.com/citations?user=3102ZDwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3102ZDwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "3102ZDwAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "CK Kwok",
+        "link": "https://scholar.google.com/citations?user=3102ZDwAAAAJ&hl=en&oi=sra",
+        "author_id": "3102ZDwAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "biorxiv.org",
+        "file_format": "PDF",
+        "link": "https://www.biorxiv.org/content/biorxiv/early/2025/06/23/2025.06.17.660256.full.pdf"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=2bt8lo4HLQsJ",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:2bt8lo4HLQsJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3A2bt8lo4HLQsJ%3Ascholar.google.com%2F&scisbd=1&start=0",
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:2bt8lo4HLQsJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 1,
+    "title": "Epitranscriptomics Regulation of CD70, CD80, and TIGIT in Cancer Immunity",
+    "result_id": "z9ZOGKCuKloJ",
+    "link": "https://www.mdpi.com/1422-0067/26/12/5772",
+    "snippet": "107 days ago - Tumor development is mainly marked by the gradual transformation of cells that acquire capacities such as sustained growth signaling, evasion of growth suppression …",
+    "publication_info": {
+      "summary": "…, M Gkoris, I Georgakopoulos-Soares… - International Journal of …, 2025 - mdpi.com",
+      "authors": [
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "mdpi.com",
+        "file_format": "HTML",
+        "link": "https://www.mdpi.com/1422-0067/26/12/5772"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=z9ZOGKCuKloJ",
+      "html_version": "https://www.mdpi.com/1422-0067/26/12/5772",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:z9ZOGKCuKloJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3Az9ZOGKCuKloJ%3Ascholar.google.com%2F&scisbd=1&start=10",
+      "versions": {
+        "total": 5,
+        "link": "https://scholar.google.com/scholar?cluster=6497197415061182159&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "6497197415061182159",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=6497197415061182159&engine=google_scholar&hl=en&scisbd=1"
+      },
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:z9ZOGKCuKloJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 2,
+    "title": "Darling (v2. 0): Mining disease-related databases for the detection of biomedical entity associations",
+    "result_id": "JRPdZA4M6OAJ",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2001037025002405",
+    "snippet": "109 days ago - Darling is a web application that employs literature mining to detect disease-related biomedical entity associations. Darling can detect sentence-based cooccurrences of …",
+    "publication_info": {
+      "summary": "…, A Giannakakis, I Georgakopoulos-Soares… - Computational and …, 2025 - Elsevier",
+      "authors": [
+        {
+          "name": "A Giannakakis",
+          "link": "https://scholar.google.com/citations?user=o-CoW3kAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=o-CoW3kAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "o-CoW3kAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "A Giannakakis",
+        "link": "https://scholar.google.com/citations?user=o-CoW3kAAAAJ&hl=en&oi=sra",
+        "author_id": "o-CoW3kAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "sciencedirect.com",
+        "file_format": "HTML",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2001037025002405"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=JRPdZA4M6OAJ",
+      "html_version": "https://www.sciencedirect.com/science/article/pii/S2001037025002405",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:JRPdZA4M6OAJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AJRPdZA4M6OAJ%3Ascholar.google.com%2F&scisbd=1&start=10",
+      "versions": {
+        "total": 5,
+        "link": "https://scholar.google.com/scholar?cluster=16206216515054015269&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "16206216515054015269",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=16206216515054015269&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 3,
+    "title": "metagRoot: A comprehensive database of protein families associated with plant root microbiomes",
+    "result_id": "DAZoJOjuGbMJ",
+    "link": "https://academic.oup.com/nar/advance-article-abstract/doi/10.1093/nar/gkaf862/8245223",
+    "snippet": "127 days ago - The plant root microbiome is vital in plant health, nutrient uptake, and environmental resilience. To explore and harness this diversity, we present metagRoot, a …",
+    "publication_info": {
+      "summary": "…, A Buluç, I Georgakopoulos-Soares… - Nucleic Acids …, 2025 - academic.oup.com",
+      "authors": [
+        {
+          "name": "A Buluç",
+          "link": "https://scholar.google.com/citations?user=hRB3wSgAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=hRB3wSgAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "hRB3wSgAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "A Buluç",
+        "link": "https://scholar.google.com/citations?user=hRB3wSgAAAAJ&hl=en&oi=sra",
+        "author_id": "hRB3wSgAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "oup.com",
+        "file_format": "PDF",
+        "link": "https://academic.oup.com/nar/advance-article-pdf/doi/10.1093/nar/gkaf862/64171903/gkaf862.pdf"
+      },
+      {
+        "title": "Full View",
+        "link": "https://scholar.google.com/scholar?output=instlink&q=info:DAZoJOjuGbMJ:scholar.google.com/&hl=en&scisbd=1&as_sdt=0,5&scillfp=6105202177444194013&oi=lle"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=DAZoJOjuGbMJ",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:DAZoJOjuGbMJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3ADAZoJOjuGbMJ%3Ascholar.google.com%2F&scisbd=1&start=10"
+    }
+  },
+  {
+    "position": 4,
+    "title": "Massively parallel reporter assays and mouse transgenic assays provide correlated and complementary information about neuronal enhancer activity",
+    "result_id": "QUiw-2eCPOcJ",
+    "link": "https://www.nature.com/articles/s41467-025-60064-1",
+    "snippet": "132 days ago - High-throughput massively parallel reporter assays (MPRAs) and phenotype-rich in vivo transgenic mouse assays are two potentially complementary ways to study the …",
+    "publication_info": {
+      "summary": "…, NF Page, I Georgakopoulos-Soares… - Nature …, 2025 - nature.com",
+      "authors": [
+        {
+          "name": "NF Page",
+          "link": "https://scholar.google.com/citations?user=iPWjuTQAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=iPWjuTQAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "iPWjuTQAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "NF Page",
+        "link": "https://scholar.google.com/citations?user=iPWjuTQAAAAJ&hl=en&oi=sra",
+        "author_id": "iPWjuTQAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "nature.com",
+        "file_format": "PDF",
+        "link": "https://www.nature.com/articles/s41467-025-60064-1.pdf"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=QUiw-2eCPOcJ",
+      "cited_by": {
+        "total": 4,
+        "link": "https://scholar.google.com/scholar?cites=16662336104479868993&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "16662336104479868993",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=16662336104479868993&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:QUiw-2eCPOcJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AQUiw-2eCPOcJ%3Ascholar.google.com%2F&scisbd=1&start=10",
+      "versions": {
+        "total": 11,
+        "link": "https://scholar.google.com/scholar?cluster=16662336104479868993&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "16662336104479868993",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=16662336104479868993&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 5,
+    "title": "Compressive and energy absorption properties of titanium hybrid lattice structures for bioimplant applications fabricated via LPBF",
+    "result_id": "Ip7w_usjrZUJ",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0264127525004654",
+    "snippet": "151 days ago - The compressive properties of lattice structures are strongly influenced by lattice design, density, material, and manufacturing method. Recent advancements in …",
+    "publication_info": {
+      "summary": "P Karmiris-Obratański, I Georgakopoulos-Soares… - Materials & Design, 2025 - Elsevier",
+      "authors": [
+        {
+          "name": "P Karmiris-Obratański",
+          "link": "https://scholar.google.com/citations?user=3gm5KUwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3gm5KUwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "3gm5KUwAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "P Karmiris-Obratański",
+        "link": "https://scholar.google.com/citations?user=3gm5KUwAAAAJ&hl=en&oi=sra",
+        "author_id": "3gm5KUwAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "sciencedirect.com",
+        "file_format": "HTML",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0264127525004654"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Ip7w_usjrZUJ",
+      "html_version": "https://www.sciencedirect.com/science/article/pii/S0264127525004654",
+      "cited_by": {
+        "total": 6,
+        "link": "https://scholar.google.com/scholar?cites=10785316179123674658&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "10785316179123674658",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=10785316179123674658&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:Ip7w_usjrZUJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AIp7w_usjrZUJ%3Ascholar.google.com%2F&scisbd=1&start=10",
+      "versions": {
+        "total": 3,
+        "link": "https://scholar.google.com/scholar?cluster=10785316179123674658&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "10785316179123674658",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=10785316179123674658&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 6,
+    "title": "Replicative DNA polymerase epsilon and delta holoenzymes show wide-ranging inhibition at G-quadruplexes in the human genome",
+    "result_id": "RYwnTGAxy_4J",
+    "link": "https://academic.oup.com/nar/article-abstract/53/8/gkaf352/8121651",
+    "snippet": "163 days ago - Abstract G-quadruplexes (G4s) are functional elements of the human genome, some of which inhibit DNA replication. We investigated replication of G4s within highly …",
+    "publication_info": {
+      "summary": "…, M Hedglin, I Georgakopoulos-Soares… - Nucleic acids …, 2025 - academic.oup.com",
+      "authors": [
+        {
+          "name": "M Hedglin",
+          "link": "https://scholar.google.com/citations?user=OyoeGU0AAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=OyoeGU0AAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "OyoeGU0AAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "M Hedglin",
+        "link": "https://scholar.google.com/citations?user=OyoeGU0AAAAJ&hl=en&oi=sra",
+        "author_id": "OyoeGU0AAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "oup.com",
+        "file_format": "PDF",
+        "link": "https://academic.oup.com/nar/article-pdf/53/8/gkaf352/63026477/gkaf352.pdf"
+      },
+      {
+        "title": "Full View",
+        "link": "https://scholar.google.com/scholar?output=instlink&q=info:RYwnTGAxy_4J:scholar.google.com/&hl=en&scisbd=1&as_sdt=0,5&scillfp=8601573154017937321&oi=lle"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=RYwnTGAxy_4J",
+      "cited_by": {
+        "total": 1,
+        "link": "https://scholar.google.com/scholar?cites=18359822595570240581&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "18359822595570240581",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=18359822595570240581&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:RYwnTGAxy_4J:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3ARYwnTGAxy_4J%3Ascholar.google.com%2F&scisbd=1&start=10",
+      "versions": {
+        "total": 6,
+        "link": "https://scholar.google.com/scholar?cluster=18359822595570240581&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "18359822595570240581",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=18359822595570240581&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 7,
+    "title": "A multi-omics analysis of effector and resting treg cells in pan-cancer",
+    "result_id": "fam5u0IesmoJ",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0010482525003725",
+    "snippet": "201 days ago - Regulatory T cells (Tregs) are critical for maintaining the stability of the immune system and facilitating tumor escape through various mechanisms. Resting T cells …",
+    "publication_info": {
+      "summary": "…, I Chondrou, M Kourti, I Georgakopoulos-Soares… - Computers in Biology …, 2025 - Elsevier",
+      "authors": [
+        {
+          "name": "M Kourti",
+          "link": "https://scholar.google.com/citations?user=KItlYDYAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=KItlYDYAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "KItlYDYAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "M Kourti",
+        "link": "https://scholar.google.com/citations?user=KItlYDYAAAAJ&hl=en&oi=sra",
+        "author_id": "KItlYDYAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "sciencedirect.com",
+        "file_format": "HTML",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0010482525003725"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=fam5u0IesmoJ",
+      "html_version": "https://www.sciencedirect.com/science/article/pii/S0010482525003725",
+      "cited_by": {
+        "total": 1,
+        "link": "https://scholar.google.com/scholar?cites=7688240785841039741&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "7688240785841039741",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=7688240785841039741&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:fam5u0IesmoJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3Afam5u0IesmoJ%3Ascholar.google.com%2F&scisbd=1&start=10",
+      "versions": {
+        "total": 4,
+        "link": "https://scholar.google.com/scholar?cluster=7688240785841039741&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "7688240785841039741",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=7688240785841039741&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 8,
+    "title": "Characterization of Exhausted T Cell Signatures in Pan-Cancer Settings",
+    "result_id": "QvwCimzDsTcJ",
+    "link": "https://www.mdpi.com/1422-0067/26/5/2311",
+    "snippet": "211 days ago - T cells play diverse roles in cancer immunology, acting as tumor suppressors, cytotoxic effectors, enhancers of cytotoxic T lymphocyte responses and immune …",
+    "publication_info": {
+      "summary": "…, A Zaravinos, I Georgakopoulos-Soares - International journal of …, 2025 - mdpi.com",
+      "authors": [
+        {
+          "name": "A Zaravinos",
+          "link": "https://scholar.google.com/citations?user=GeK1pTsAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=GeK1pTsAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "GeK1pTsAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "A Zaravinos",
+        "link": "https://scholar.google.com/citations?user=GeK1pTsAAAAJ&hl=en&oi=sra",
+        "author_id": "GeK1pTsAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "mdpi.com",
+        "file_format": "HTML",
+        "link": "https://www.mdpi.com/1422-0067/26/5/2311"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=QvwCimzDsTcJ",
+      "html_version": "https://www.mdpi.com/1422-0067/26/5/2311",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:QvwCimzDsTcJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AQvwCimzDsTcJ%3Ascholar.google.com%2F&scisbd=1&start=10",
+      "versions": {
+        "total": 6,
+        "link": "https://scholar.google.com/scholar?cluster=4013203613903158338&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "4013203613903158338",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=4013203613903158338&engine=google_scholar&hl=en&scisbd=1"
+      },
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:QvwCimzDsTcJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 9,
+    "title": "ZSeeker: an optimized algorithm for Z-DNA detection in genomic sequences",
+    "result_id": "kXgxoQHmFI8J",
+    "link": "https://academic.oup.com/bib/article/54/5/bbaf240/8153690",
+    "snippet": "233 days ago - Abstract Z-deoxyribonucleic acid (Z-DNA) is an alternative left-handed DNA structure with a zigzag-shaped backbone that differs from the right-handed canonical B-DNA …",
+    "publication_info": {
+      "summary": "…, M Patsakis, I Georgakopoulos-Soares… - Briefings in …, 2025 - academic.oup.com",
+      "authors": [
+        {
+          "name": "M Patsakis",
+          "link": "https://scholar.google.com/citations?user=YdzB4hoAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=YdzB4hoAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "YdzB4hoAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "M Patsakis",
+        "link": "https://scholar.google.com/citations?user=YdzB4hoAAAAJ&hl=en&oi=sra",
+        "author_id": "YdzB4hoAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "oup.com",
+        "file_format": "PDF",
+        "link": "https://academic.oup.com/bib/article-pdf/54/5/bbaf240/63405363/bbaf240.pdf"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=kXgxoQHmFI8J",
+      "cited_by": {
+        "total": 2,
+        "link": "https://scholar.google.com/scholar?cites=10310118341631637649&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "10310118341631637649",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=10310118341631637649&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:kXgxoQHmFI8J:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AkXgxoQHmFI8J%3Ascholar.google.com%2F&scisbd=1&start=10",
+      "versions": {
+        "total": 9,
+        "link": "https://scholar.google.com/scholar?cluster=10310118341631637649&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "10310118341631637649",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=10310118341631637649&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 10,
+    "title": "Unraveling diversity by isolating peptide sequences specific to distinct taxonomic groups",
+    "result_id": "XfcZ16nx0kAJ",
+    "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11839104/",
+    "snippet": "235 days ago - The identification of succinct, universal fingerprints that enable the characterization of individual taxonomies can reveal insights into trait development and can …",
+    "publication_info": {
+      "summary": "…, D Chartoumpekis, I Georgakopoulos-Soares - …, 2025 - pmc.ncbi.nlm.nih.gov",
+      "authors": [
+        {
+          "name": "D Chartoumpekis",
+          "link": "https://scholar.google.com/citations?user=nev2h8YAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=nev2h8YAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "nev2h8YAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "D Chartoumpekis",
+        "link": "https://scholar.google.com/citations?user=nev2h8YAAAAJ&hl=en&oi=sra",
+        "author_id": "nev2h8YAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "nih.gov",
+        "file_format": "HTML",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11839104/"
+      },
+      {
+        "title": "Free from Publisher",
+        "link": "https://scholar.google.com/scholar?output=instlink&q=info:XfcZ16nx0kAJ:scholar.google.com/&hl=en&scisbd=1&as_sdt=0,5&scillfp=15999634935355796665&oi=lle"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=XfcZ16nx0kAJ",
+      "html_version": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11839104/",
+      "cited_by": {
+        "total": 1,
+        "link": "https://scholar.google.com/scholar?cites=4671061475297195869&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "4671061475297195869",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=4671061475297195869&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:XfcZ16nx0kAJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AXfcZ16nx0kAJ%3Ascholar.google.com%2F&scisbd=1&start=10",
+      "versions": {
+        "total": 3,
+        "link": "https://scholar.google.com/scholar?cluster=4671061475297195869&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "4671061475297195869",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=4671061475297195869&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 1,
+    "title": "A Multi-Omics Analysis of a Mitophagy-Related Signature in Pan-Cancer",
+    "result_id": "15icLYWQnhIJ",
+    "link": "https://www.mdpi.com/1422-0067/26/2/448",
+    "snippet": "268 days ago - Mitophagy, an essential process within cellular autophagy, has a critical role in regulating key cellular functions such as reproduction, metabolism, and apoptosis. Its …",
+    "publication_info": {
+      "summary": "N Agir, I Georgakopoulos-Soares… - International journal of …, 2025 - mdpi.com",
+      "authors": [
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "mdpi.com",
+        "file_format": "HTML",
+        "link": "https://www.mdpi.com/1422-0067/26/2/448"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=15icLYWQnhIJ",
+      "html_version": "https://www.mdpi.com/1422-0067/26/2/448",
+      "cited_by": {
+        "total": 2,
+        "link": "https://scholar.google.com/scholar?cites=1341668640673274071&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "1341668640673274071",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=1341668640673274071&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:15icLYWQnhIJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3A15icLYWQnhIJ%3Ascholar.google.com%2F&scisbd=1&start=20",
+      "versions": {
+        "total": 6,
+        "link": "https://scholar.google.com/scholar?cluster=1341668640673274071&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "1341668640673274071",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=1341668640673274071&engine=google_scholar&hl=en&scisbd=1"
+      },
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:15icLYWQnhIJ:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  },
+  {
+    "position": 2,
+    "title": "Identification of the shortest species-specific oligonucleotide sequences",
+    "result_id": "OyXmXFjvHmsJ",
+    "link": "https://genome.cshlp.org/content/35/2/279.short",
+    "snippet": "272 days ago - Despite the exponential increase in sequencing information driven by massively parallel DNA sequencing technologies, universal and succinct genomic …",
+    "publication_info": {
+      "summary": "…, DV Chartoumpekis, I Georgakopoulos-Soares - Genome …, 2025 - genome.cshlp.org",
+      "authors": [
+        {
+          "name": "DV Chartoumpekis",
+          "link": "https://scholar.google.com/citations?user=nev2h8YAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=nev2h8YAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "nev2h8YAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "DV Chartoumpekis",
+        "link": "https://scholar.google.com/citations?user=nev2h8YAAAAJ&hl=en&oi=sra",
+        "author_id": "nev2h8YAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "cshlp.org",
+        "file_format": "PDF",
+        "link": "https://genome.cshlp.org/content/35/2/279.full.pdf"
+      },
+      {
+        "title": "Free from Publisher",
+        "link": "https://scholar.google.com/scholar?output=instlink&q=info:OyXmXFjvHmsJ:scholar.google.com/&hl=en&scisbd=1&as_sdt=0,5&scillfp=5297726372094360349&oi=lle"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=OyXmXFjvHmsJ",
+      "cited_by": {
+        "total": 1,
+        "link": "https://scholar.google.com/scholar?cites=7718869974154356027&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "7718869974154356027",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=7718869974154356027&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:OyXmXFjvHmsJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AOyXmXFjvHmsJ%3Ascholar.google.com%2F&scisbd=1&start=20",
+      "versions": {
+        "total": 7,
+        "link": "https://scholar.google.com/scholar?cluster=7718869974154356027&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "7718869974154356027",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=7718869974154356027&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 3,
+    "title": "MAFcounter: an efficient tool for counting the occurrences of k-mers in MAF files",
+    "result_id": "b6uy2lB2B2IJ",
+    "link": "https://link.springer.com/article/10.1186/s12859-025-06172-7",
+    "snippet": "304 days ago - Motivation With the rapid expansion of large-scale biological datasets, DNA and protein sequence alignments have become essential for comparative genomics and …",
+    "publication_info": {
+      "summary": "…, C Koilakos, I Mouratidis, I Georgakopoulos-Soares - BMC …, 2025 - Springer",
+      "authors": [
+        {
+          "name": "I Mouratidis",
+          "link": "https://scholar.google.com/citations?user=UowZjXsAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UowZjXsAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "UowZjXsAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "I Mouratidis",
+        "link": "https://scholar.google.com/citations?user=UowZjXsAAAAJ&hl=en&oi=sra",
+        "author_id": "UowZjXsAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "springer.com",
+        "file_format": "PDF",
+        "link": "https://link.springer.com/content/pdf/10.1186/s12859-025-06172-7.pdf"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=b6uy2lB2B2IJ",
+      "cited_by": {
+        "total": 1,
+        "link": "https://scholar.google.com/scholar?cites=7063744630192515951&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "7063744630192515951",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=7063744630192515951&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:b6uy2lB2B2IJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3Ab6uy2lB2B2IJ%3Ascholar.google.com%2F&scisbd=1&start=20",
+      "versions": {
+        "total": 12,
+        "link": "https://scholar.google.com/scholar?cluster=7063744630192515951&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "7063744630192515951",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=7063744630192515951&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 4,
+    "title": "Microsatellites explorer: A database of short tandem repeats across genomes",
+    "result_id": "hgRGxf1GuJQJ",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2001037024003611",
+    "snippet": "341 days ago - Short tandem repeats (STRs) are widespread, repetitive elements, with a number of biological functions and are among the most rapidly mutating regions in the …",
+    "publication_info": {
+      "summary": "…, I Mouratidis, I Georgakopoulos-Soares - Computational and …, 2024 - Elsevier",
+      "authors": [
+        {
+          "name": "I Mouratidis",
+          "link": "https://scholar.google.com/citations?user=UowZjXsAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UowZjXsAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "UowZjXsAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "I Mouratidis",
+        "link": "https://scholar.google.com/citations?user=UowZjXsAAAAJ&hl=en&oi=sra",
+        "author_id": "UowZjXsAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "sciencedirect.com",
+        "file_format": "HTML",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2001037024003611"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=hgRGxf1GuJQJ",
+      "html_version": "https://www.sciencedirect.com/science/article/pii/S2001037024003611",
+      "cited_by": {
+        "total": 2,
+        "link": "https://scholar.google.com/scholar?cites=10716393369078465670&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "10716393369078465670",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=10716393369078465670&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:hgRGxf1GuJQJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AhgRGxf1GuJQJ%3Ascholar.google.com%2F&scisbd=1&start=20",
+      "versions": {
+        "total": 5,
+        "link": "https://scholar.google.com/scholar?cluster=10716393369078465670&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "10716393369078465670",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=10716393369078465670&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 5,
+    "title": "MAFin: motif detection in multiple alignment files",
+    "result_id": "AVQj7O7QJpoJ",
+    "link": "https://academic.oup.com/bioinformatics/article-abstract/41/4/btaf125/8086993",
+    "snippet": "351 days ago - Abstract Motivation Whole Genome and Proteome Alignments, represented by the multiple alignment file format, have become a standard approach in comparative …",
+    "publication_info": {
+      "summary": "…, GA Pavlopoulos, I Georgakopoulos-Soares - …, 2025 - academic.oup.com",
+      "authors": [
+        {
+          "name": "GA Pavlopoulos",
+          "link": "https://scholar.google.com/citations?user=3bL-H00AAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3bL-H00AAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "3bL-H00AAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "GA Pavlopoulos",
+        "link": "https://scholar.google.com/citations?user=3bL-H00AAAAJ&hl=en&oi=sra",
+        "author_id": "3bL-H00AAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "oup.com",
+        "file_format": "PDF",
+        "link": "https://academic.oup.com/bioinformatics/article-pdf/41/4/btaf125/62463324/btaf125.pdf"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=AVQj7O7QJpoJ",
+      "cited_by": {
+        "total": 2,
+        "link": "https://scholar.google.com/scholar?cites=11107795255538439169&as_sdt=2005&sciodt=0,5&hl=en",
+        "cites_id": "11107795255538439169",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11107795255538439169&engine=google_scholar&hl=en"
+      },
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:AVQj7O7QJpoJ:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AAVQj7O7QJpoJ%3Ascholar.google.com%2F&scisbd=1&start=20",
+      "versions": {
+        "total": 12,
+        "link": "https://scholar.google.com/scholar?cluster=11107795255538439169&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "11107795255538439169",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=11107795255538439169&engine=google_scholar&hl=en&scisbd=1"
+      }
+    }
+  },
+  {
+    "position": 6,
+    "title": "Zimin patterns in genomes",
+    "result_id": "OFWYDYvynL4J",
+    "link": "https://arxiv.org/abs/2410.13004",
+    "snippet": "351 days ago - Zimin words are words that have the same prefix and suffix. They are unavoidable patterns, with all sufficiently large strings encompassing them. Here, we …",
+    "publication_info": {
+      "summary": "…, I Mouratidis, I Georgakopoulos-Soares - arXiv preprint arXiv …, 2024 - arxiv.org",
+      "authors": [
+        {
+          "name": "I Mouratidis",
+          "link": "https://scholar.google.com/citations?user=UowZjXsAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UowZjXsAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "UowZjXsAAAAJ"
+        },
+        {
+          "name": "I Georgakopoulos-Soares",
+          "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BDaUtCwAAAAJ&engine=google_scholar_author&hl=en",
+          "author_id": "BDaUtCwAAAAJ"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "I Mouratidis",
+        "link": "https://scholar.google.com/citations?user=UowZjXsAAAAJ&hl=en&oi=sra",
+        "author_id": "UowZjXsAAAAJ"
+      },
+      {
+        "name": "I Georgakopoulos-Soares",
+        "link": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=en&oi=sra",
+        "author_id": "BDaUtCwAAAAJ"
+      }
+    ],
+    "resources": [
+      {
+        "title": "arxiv.org",
+        "file_format": "PDF",
+        "link": "https://arxiv.org/pdf/2410.13004"
+      }
+    ],
+    "inline_links": {
+      "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=OFWYDYvynL4J",
+      "related_pages_link": "https://scholar.google.com/scholar?q=related:OFWYDYvynL4J:scholar.google.com/&scioq=author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5",
+      "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&as_ylo=2019&engine=google_scholar&hl=en&q=related%3AOFWYDYvynL4J%3Ascholar.google.com%2F&scisbd=1&start=20",
+      "versions": {
+        "total": 4,
+        "link": "https://scholar.google.com/scholar?cluster=13735119642615633208&hl=en&scisbd=1&as_sdt=0,5",
+        "cluster_id": "13735119642615633208",
+        "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=13735119642615633208&engine=google_scholar&hl=en&scisbd=1"
+      },
+      "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:OFWYDYvynL4J:scholar.google.com/+author:georgakopoulos-soares&hl=en&scisbd=1&as_sdt=0,5"
+    }
+  }
+]

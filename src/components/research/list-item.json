@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_research_list_items",
+  "info": {
+    "displayName": "List Item",
+    "icon": "dot-circle"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

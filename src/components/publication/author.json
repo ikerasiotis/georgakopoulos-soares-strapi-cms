@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_publication_authors",
+  "info": {
+    "displayName": "Author",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "John Doe"
+    },
+    "link": {
+      "type": "string",
+      "default": "https://scholar.google.com"
+    },
+    "authorId": {
+      "type": "string",
+      "default": "sample-author-id"
+    }
+  }
+}

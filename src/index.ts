@@ -1,4 +1,36 @@
 import type { Core } from "@strapi/strapi";
+import publicationsFixture from "./fixtures/papers_full.json";
+
+type PublicationSeed = {
+  position?: number;
+  title?: string;
+  result_id?: string;
+  link?: string;
+  snippet?: string;
+  publication_info?: {
+    summary?: string;
+    authors?: Array<{
+      name?: string;
+      link?: string;
+      author_id?: string;
+    }>;
+  };
+  authors?: Array<{
+    name?: string;
+    link?: string;
+    author_id?: string;
+  }>;
+  resources?: Array<{
+    title?: string;
+    file_format?: string;
+    link?: string;
+  }>;
+  inline_links?: {
+    versions?: {
+      total?: number;
+    };
+  };
+};
 
 const fallbackNavigation = [
   { label: "Research", url: "/research", isVisible: true },
@@ -22,132 +54,132 @@ const defaultGlobalSetting = {
 };
 
 const defaultTeamMembers = [
-  {
-    __component: "team.member" as const,
-    name: "Ioannis Mouratidis",
-    role: "Research Scientist ",
-    focus: "Computational biology",
-    affiliation: "Austin Texas University",
-    bio: "Ioannis Mouratidis is a Research Software Engineer specializing in machine learning and algorithmic optimization, with over five years of experience applying these methods to bioinformatics and computational biology. He holds a bachelor's degree in Mathematics and a master's in Artificial Intelligence from KU Leuven University. Ioannis is particularly interested in developing scalable and efficient artificial intelligence models that bridge the gap between raw data and actionable insights in life sciences. Outside of work, he enjoys running, reading, and discovering new places through travel.",
-    email: null,
-    portrait: "ioannis.jpg",
-  },
-  {
-    __component: "team.member",
-    name: "Nikol Chantzi",
-    role: "Research Scientist",
-    focus: "",
-    affiliation: "Austin Texas University",
-    bio: "I am a mathematician and software engineer. My main research interests lie within probability theory, artificial intelligence, algorithms and computation. When I don’t code I enjoy reading fantasy novels, philosophy books, & working out. I also, love playing RPG board games via which I experience new worlds that spark my imagination to see beyond what’s visible.",
-    email: null,
-    portrait: "nikol.jpg",
-  },
-  {
-    __component: "team.member",
-    name: "Candace Chan",
-    role: "PhD Student",
-    focus: "Computational biology",
-    affiliation: "Austin Texas University",
-    bio: "Candace is a computational biologist dedicated to developing advanced tools for disease detection and untangling the complexities of gene regulation. She earned her PhD from the University of California, San Francisco, and bachelor's degree in Molecular and Cell Biology from the University of California, Berkeley.",
-    email: null,
-    portrait: "candance.jpg",
-  },
-  {
-    __component: "team.member",
-    name: "Aksatha Nayak",
-    role: "PhD Student",
-    focus: "Bioinformatics, Cancer Genomics",
-    affiliation: "Austin Texas University",
-    bio: "I am a PhD student specializing in bioinformatics, with a focus on cancer genomics. I hold a bachelor's degree in Computer Science and Engineering from India and began my career as a software developer before transitioning into bioinformatics. Prior to starting my PhD, I worked as a Bioinformatician at EMBL-EBI, where I explored my interest in genomic data analysis. Outside of research, I enjoy reading thrillers, hiking and traveling.",
-    email: null,
-    portrait: "akshatha.jpg",
-  },
-  {
-    __component: "team.member",
-    name: "Aris Karatikos",
-    role: "Software and Machine Learning Engineer",
-    focus: "Software Engineering, Artificial Intelligence, Bioinformatics",
-    affiliation: "Austin Texas University",
-    bio: "Aris Karatzikos is a Software and Machine Learning Engineer with experience in Software Engineering and Artificial Intelligence, specializing in large-scale data systems, bioinformatics, and domain-specific applications in both scientific and industrial contexts. He holds a Master’s degree in Electrical and Computer Engineering and will begin a Ph.D. in Computer Science at the University of Texas at Austin in the fall.",
-    email: null,
-    portrait: "aris.png",
-  },
-  {
-    __component: "team.member",
-    name: "Eleftherios Bochalis",
-    role: "PhD Student",
-    focus: "Bioinformatics, Cancer Genomics, Evolutionary Biology, AI",
-    affiliation: "Austin Texas University",
-    bio: "I am a Bioinformatician, with a Master’s in Pharmacy and a robust background in Biology and Computer Science. Currently, I am a PhD student studying Bioinformatics. My main research interests focus on cancer genomics with an emphasis on mutational analysis, evolutionary biology centered around protein evolution, and artificial intelligence. Outside the lab, I play basketball, exercise and listen to music.",
-    email: null,
-    portrait: "lefteris.jpg",
-    linkedin: "https://www.linkedin.com/in/eleftherios-bochalis/",
-    github: "https://github.com/mpo05",
-  },
-  {
-    __component: "team.member",
-    name: "Georgios Megalovasilis",
-    role: "Research Scientist",
-    focus: "Bioinformatics, Biomedical Analysis",
-    affiliation: "Austin Texas University",
-    bio: "I have a background in biology, with hands-on experience in both laboratory and clinical settings. Over time, I became increasingly interested in working with data, which led me to focus on bioinformatics and biomedical analysis during my master’s studies. Now, I enjoy learning new ways to combine biology and programming, and I find the challenges of data-driven research very rewarding. Outside of work, I like reading, hiking, and staying active. Education: Biology BSc, University of Patras. Molecular Medicine MSc, Charité Medical University of Berlin.",
-    email: null,
-    portrait: "vasilios.jpg",
-  },
-  {
-    __component: "team.member",
-    name: "Zhe Liu (Ashley)",
-    role: "PhD",
-    focus: "Computational Biology, Bioinformatics",
-    affiliation: "Austin Texas University",
-    bio: "My name is Zhe LIU (Ashley). I obtained my Ph.D. from the Department of Computer Science at City University of Hong Kong, under the supervision of Prof. Ka-Chun WONG. My research primarily focuses on computational biology and bioinformatics, with particular interests in transcriptional regulation, single-cell transcriptomics, and the development of computational tools for integrative multi-omics analysis. I am passionate about applying machine learning and data-driven approaches to better understand complex biological systems and human diseases.",
-    email: null,
-    portrait: "zhe.jpg",
-  },
-  {
-    __component: "team.member",
-    name: "Antonis Papageorgiou",
-    role: "Bioinformatician",
-    focus: "Data Science, Artificial Intelligence, Bioinformatics",
-    affiliation: "Austin Texas University",
-    bio: "Antonis Papageorgiou is a Bioinformatician with a background in Electrical Engineering and Computer Technology. He is passionate about Data Science, AI and Bioinformatics and has strong programming skills. At the moment he is doing his Masters Degree in the field of Bioinformatics and Computational Biology. In his free time, he enjoys traveling and staying active through basketball, tennis and skiing.",
-    email: null,
-    portrait: "antonis.jpeg",
-  },
-  {
-    __component: "team.member",
-    name: "Haris Kilakos",
-    role: "PhD Student",
-    focus: "Artificial Intelligence, Software Engineering, Bioinformatics",
-    affiliation: "Austin Texas University",
-    bio: "I’m a PhD student in Computer Science at the University of Texas at Austin, specializing in artificial intelligence, software engineering and bioinformatics. My research focuses on developing machine learning methods to tackle complex problems in computational biology, with the goal of deepening our biological understanding. I’m passionate about interdisciplinary collaboration and aim to explore how AI can contribute to meaningful advances in the life sciences.",
-    email: null,
-    portrait: "haris.jpg",
-  },
-  {
-    __component: "team.member",
-    name: "Michail Patsakis",
-    role: "Electrical and Computer Engineer",
-    focus: "Algorithm Design, Complexity Theory, Software Architecture",
-    affiliation: "Austin Texas University",
-    bio: "Michail Patsakis is an Electrical and Computer Engineer with a robust background in theoretical computer science and software engineering, having previously contributed his expertise at IBM’s Data & AI department. His research interests span a wide spectrum, encompassing algorithm design, complexity theory and software architecture. In his free time, he enjoys playing blitz chess, classical piano and tennis.",
-    email: null,
-    portrait: "patsakis.png",
-    github: "https://github.com/michalispatsakis",
-  },
-  {
-    __component: "team.member",
-    name: "Kimonas Provatas",
-    role: "Electrical and Computer Engineer",
-    focus: "Software Engineering, System Design, Cybersecurity",
-    affiliation: "Austin Texas University",
-    bio: "Kimon is an Electrical and Computer Engineer with a strong inclination towards software engineering, system design and cybersecurity. He has worked at IBM security expert labs and his research interests cover software architecture, algorithms and cybersecurity. In his free time he enjoys running, doing outdoor activities and reading classic literature.",
-    email: null,
-    portrait: "kimonas.jpg",
-    linkedin: "https://www.linkedin.com/in/kimonas-provatas-30905a1a1/",
-    github: "https://github.com/xkimopro",
-  },
-];
+    {
+      __component: "team.member" as const,
+      name: "Ioannis Mouratidis",
+      role: "Research Scientist ",
+      focus: "Computational biology",
+      affiliation: "Austin Texas University",
+      bio: "Ioannis Mouratidis is a Research Software Engineer specializing in machine learning and algorithmic optimization, with over five years of experience applying these methods to bioinformatics and computational biology. He holds a bachelor's degree in Mathematics and a master's in Artificial Intelligence from KU Leuven University. Ioannis is particularly interested in developing scalable and efficient artificial intelligence models that bridge the gap between raw data and actionable insights in life sciences. Outside of work, he enjoys running, reading, and discovering new places through travel.",
+      email: null,
+      portrait: "ioannis.jpg",
+    },
+    {
+      __component: "team.member",
+      name: "Nikol Chantzi",
+      role: "Research Scientist",
+      focus: "",
+      affiliation: "Austin Texas University",
+      bio: "I am a mathematician and software engineer. My main research interests lie within probability theory, artificial intelligence, algorithms and computation. When I don’t code I enjoy reading fantasy novels, philosophy books, & working out. I also, love playing RPG board games via which I experience new worlds that spark my imagination to see beyond what’s visible.",
+      email: null,
+      portrait: "nikol.jpg",
+    },
+    {
+      __component: "team.member",
+      name: "Candace Chan",
+      role: "PhD Student",
+      focus: "Computational biology",
+      affiliation: "Austin Texas University",
+      bio: "Candace is a computational biologist dedicated to developing advanced tools for disease detection and untangling the complexities of gene regulation. She earned her PhD from the University of California, San Francisco, and bachelor's degree in Molecular and Cell Biology from the University of California, Berkeley.",
+      email: null,
+      portrait: "candance.jpg",
+    },
+    {
+      __component: "team.member",
+      name: "Aksatha Nayak",
+      role: "PhD Student",
+      focus: "Bioinformatics, Cancer Genomics",
+      affiliation: "Austin Texas University",
+      bio: "I am a PhD student specializing in bioinformatics, with a focus on cancer genomics. I hold a bachelor's degree in Computer Science and Engineering from India and began my career as a software developer before transitioning into bioinformatics. Prior to starting my PhD, I worked as a Bioinformatician at EMBL-EBI, where I explored my interest in genomic data analysis. Outside of research, I enjoy reading thrillers, hiking and traveling.",
+      email: null,
+      portrait: "akshatha.jpg",
+    },
+    {
+      __component: "team.member",
+      name: "Aris Karatikos",
+      role: "Software and Machine Learning Engineer",
+      focus: "Software Engineering, Artificial Intelligence, Bioinformatics",
+      affiliation: "Austin Texas University",
+      bio: "Aris Karatzikos is a Software and Machine Learning Engineer with experience in Software Engineering and Artificial Intelligence, specializing in large-scale data systems, bioinformatics, and domain-specific applications in both scientific and industrial contexts. He holds a Master’s degree in Electrical and Computer Engineering and will begin a Ph.D. in Computer Science at the University of Texas at Austin in the fall.",
+      email: null,
+      portrait: "aris.png",
+    },
+    {
+      __component: "team.member",
+      name: "Eleftherios Bochalis",
+      role: "PhD Student",
+      focus: "Bioinformatics, Cancer Genomics, Evolutionary Biology, AI",
+      affiliation: "Austin Texas University",
+      bio: "I am a Bioinformatician, with a Master’s in Pharmacy and a robust background in Biology and Computer Science. Currently, I am a PhD student studying Bioinformatics. My main research interests focus on cancer genomics with an emphasis on mutational analysis, evolutionary biology centered around protein evolution, and artificial intelligence. Outside the lab, I play basketball, exercise and listen to music.",
+      email: null,
+      portrait: "lefteris.jpg",
+      linkedin: "https://www.linkedin.com/in/eleftherios-bochalis/",
+      github: "https://github.com/mpo05",
+    },
+    {
+      __component: "team.member",
+      name: "Georgios Megalovasilis",
+      role: "Research Scientist",
+      focus: "Bioinformatics, Biomedical Analysis",
+      affiliation: "Austin Texas University",
+      bio: "I have a background in biology, with hands-on experience in both laboratory and clinical settings. Over time, I became increasingly interested in working with data, which led me to focus on bioinformatics and biomedical analysis during my master’s studies. Now, I enjoy learning new ways to combine biology and programming, and I find the challenges of data-driven research very rewarding. Outside of work, I like reading, hiking, and staying active. Education: Biology BSc, University of Patras. Molecular Medicine MSc, Charité Medical University of Berlin.",
+      email: null,
+      portrait: "vasilios.jpg",
+    },
+    {
+      __component: "team.member",
+      name: "Zhe Liu (Ashley)",
+      role: "PhD",
+      focus: "Computational Biology, Bioinformatics",
+      affiliation: "Austin Texas University",
+      bio: "My name is Zhe LIU (Ashley). I obtained my Ph.D. from the Department of Computer Science at City University of Hong Kong, under the supervision of Prof. Ka-Chun WONG. My research primarily focuses on computational biology and bioinformatics, with particular interests in transcriptional regulation, single-cell transcriptomics, and the development of computational tools for integrative multi-omics analysis. I am passionate about applying machine learning and data-driven approaches to better understand complex biological systems and human diseases.",
+      email: null,
+      portrait: "zhe.jpg",
+    },
+    {
+      __component: "team.member",
+      name: "Antonis Papageorgiou",
+      role: "Bioinformatician",
+      focus: "Data Science, Artificial Intelligence, Bioinformatics",
+      affiliation: "Austin Texas University",
+      bio: "Antonis Papageorgiou is a Bioinformatician with a background in Electrical Engineering and Computer Technology. He is passionate about Data Science, AI and Bioinformatics and has strong programming skills. At the moment he is doing his Masters Degree in the field of Bioinformatics and Computational Biology. In his free time, he enjoys traveling and staying active through basketball, tennis and skiing.",
+      email: null,
+      portrait: "antonis.jpeg",
+    },
+    {
+      __component: "team.member",
+      name: "Haris Kilakos",
+      role: "PhD Student",
+      focus: "Artificial Intelligence, Software Engineering, Bioinformatics",
+      affiliation: "Austin Texas University",
+      bio: "I’m a PhD student in Computer Science at the University of Texas at Austin, specializing in artificial intelligence, software engineering and bioinformatics. My research focuses on developing machine learning methods to tackle complex problems in computational biology, with the goal of deepening our biological understanding. I’m passionate about interdisciplinary collaboration and aim to explore how AI can contribute to meaningful advances in the life sciences.",
+      email: null,
+      portrait: "haris.jpg",
+    },
+    {
+      __component: "team.member",
+      name: "Michail Patsakis",
+      role: "Electrical and Computer Engineer",
+      focus: "Algorithm Design, Complexity Theory, Software Architecture",
+      affiliation: "Austin Texas University",
+      bio: "Michail Patsakis is an Electrical and Computer Engineer with a robust background in theoretical computer science and software engineering, having previously contributed his expertise at IBM’s Data & AI department. His research interests span a wide spectrum, encompassing algorithm design, complexity theory and software architecture. In his free time, he enjoys playing blitz chess, classical piano and tennis.",
+      email: null,
+      portrait: "patsakis.png",
+      github: "https://github.com/michalispatsakis",
+    },
+    {
+      __component: "team.member",
+      name: "Kimonas Provatas",
+      role: "Electrical and Computer Engineer",
+      focus: "Software Engineering, System Design, Cybersecurity",
+      affiliation: "Austin Texas University",
+      bio: "Kimon is an Electrical and Computer Engineer with a strong inclination towards software engineering, system design and cybersecurity. He has worked at IBM security expert labs and his research interests cover software architecture, algorithms and cybersecurity. In his free time he enjoys running, doing outdoor activities and reading classic literature.",
+      email: null,
+      portrait: "kimonas.jpg",
+      linkedin: "https://www.linkedin.com/in/kimonas-provatas-30905a1a1/",
+      github: "https://github.com/xkimopro",
+    },
+  ];
 
 const defaultTeamPage = {
   heroTitle: "Our Team",
@@ -200,6 +232,240 @@ const defaultTeamPage = {
   members: defaultTeamMembers,
 };
 
+const defaultPublications = (publicationsFixture as PublicationSeed[]).map(
+  (item, index) => ({
+    position: item.position ?? index + 1,
+    title: item.title ?? "Sample Publication Title",
+    resultId: item.result_id ?? `publication-${index + 1}`,
+    link: item.link ?? "https://example.com/publication",
+    snippet:
+      item.snippet ??
+      "This is a short teaser describing the publication in one or two sentences.",
+    publicationSummary:
+      item.publication_info?.summary ??
+      "Extended summary of the publication including venue, year, and key findings.",
+    publicationAuthors: (item.publication_info?.authors ?? []).map((author) => ({
+      __component: "publication.author" as const,
+      name: author.name ?? "Unknown Author",
+      link: author.link ?? null,
+      authorId: author.author_id ?? null,
+    })),
+    authors: (item.authors ?? []).map((author) => ({
+      __component: "publication.author" as const,
+      name: author.name ?? "Unknown Author",
+      link: author.link ?? null,
+      authorId: author.author_id ?? null,
+    })),
+    resources: (item.resources ?? []).map((resource) => ({
+      __component: "publication.resource" as const,
+      title: resource.title ?? "Publisher Website",
+      fileFormat: resource.file_format ?? "PDF",
+      link: resource.link ?? "https://example.com/resource.pdf",
+    })),
+    citations: item.inline_links?.versions?.total ?? 0,
+    isVisible: true,
+  })
+);
+
+const defaultResearchPage = {
+  heroTitle: "Research Areas",
+  heroSubtitle:
+    "Exploring the genomic landscape of cancer through computational approaches",
+  approachParagraphs: [
+    {
+      content:
+        "The Georgakopoulos-Soares Lab combines computational biology, genomics, and machine learning to understand the complex patterns of mutations that drive cancer development and progression.",
+    },
+    {
+      content:
+        "We develop innovative computational methods to analyze large-scale genomic datasets, with the goal of identifying new biomarkers, therapeutic targets, and insights into cancer biology.",
+    },
+    {
+      content:
+        "Our interdisciplinary approach brings together expertise from computer science, statistics, molecular biology, and clinical oncology to address key challenges in cancer research.",
+    },
+  ],
+  approachHighlights: [
+    {
+      title: "Genomic Analysis",
+      description: "Analyzing cancer genomes to identify mutational patterns and signatures.",
+      accent: "primary" as const,
+    },
+    {
+      title: "Machine Learning",
+      description: "Developing algorithms that surface actionable insights from complex data.",
+      accent: "secondary" as const,
+    },
+    {
+      title: "Translational Research",
+      description: "Bridging basic science discoveries with clinical applications.",
+      accent: "accent" as const,
+    },
+    {
+      title: "Tool Development",
+      description: "Creating open resources for the scientific and medical community.",
+      accent: "primary" as const,
+    },
+  ],
+  focusAreas: [
+    {
+      title: "Mutational Signatures in Cancer",
+      accent: "primary" as const,
+      descriptionParagraphs: [
+        {
+          content:
+            "Our lab is at the forefront of identifying and characterizing mutational signatures in cancer genomes. These signatures reveal the biological processes operating during tumor development.",
+        },
+        {
+          content:
+            "By analyzing large-scale genomic datasets we discover new signatures and explore their biological origins with implications for etiology, detection, and treatment.",
+        },
+      ],
+      projects: [
+        { label: "Identification of novel mutational signatures in pediatric cancers" },
+        { label: "Computational methods for signature extraction from whole-genome sequencing" },
+        { label: "Linking mutational signatures to clinical outcomes" },
+        { label: "Characterization of tissue-specific mutational processes" },
+      ],
+      tags: [
+        { label: "Genomic Analysis" },
+        { label: "Pattern Recognition" },
+        { label: "Cancer Etiology" },
+      ],
+    },
+    {
+      title: "Genomic Instability and Cancer Evolution",
+      accent: "secondary" as const,
+      descriptionParagraphs: [
+        {
+          content:
+            "Genomic instability drives tumor evolution and treatment resistance. We interrogate its mechanisms and consequences across cancer types.",
+        },
+        {
+          content:
+            "Our computational methods quantify chromosomal instability, microsatellite instability, and replication stress to uncover therapeutic vulnerabilities.",
+        },
+      ],
+      projects: [
+        { label: "Cataloguing genomic instability patterns across tumors" },
+        { label: "Relating genomic instability to immunotherapy response" },
+        { label: "Tracking tumor evolution via instability markers" },
+        { label: "Identifying synthetic lethal partners of instability pathways" },
+      ],
+      tags: [
+        { label: "Tumor Evolution" },
+        { label: "Genomic Instability" },
+        { label: "Treatment Resistance" },
+      ],
+    },
+    {
+      title: "Computational Methods for Cancer Genomics",
+      accent: "accent" as const,
+      descriptionParagraphs: [
+        {
+          content:
+            "We build computational and machine learning frameworks tailored to the complexity of cancer genomes.",
+        },
+        {
+          content:
+            "Our tools integrate heterogeneous data, identify driver mutations, and deliver accessible software for the community.",
+        },
+      ],
+      projects: [
+        { label: "Multi-omics integration with machine learning" },
+        { label: "Frameworks for mutational signature analysis" },
+        { label: "Algorithms for discovering cancer driver mutations" },
+        { label: "Deep learning models for cancer classification and prognosis" },
+      ],
+      tags: [
+        { label: "Machine Learning" },
+        { label: "Algorithm Development" },
+        { label: "Data Integration" },
+      ],
+    },
+    {
+      title: "Translational Cancer Genomics",
+      accent: "primary" as const,
+      descriptionParagraphs: [
+        {
+          content:
+            "We translate genomic discoveries into clinical impact through biomarker development and validation.",
+        },
+        {
+          content:
+            "Collaboration with clinical partners ensures our findings inform diagnosis, prognosis, and therapy selection.",
+        },
+      ],
+      projects: [
+        { label: "Biomarkers for early cancer detection" },
+        { label: "Predictive markers for immunotherapy response" },
+        { label: "Prognostic models based on mutational signatures" },
+        { label: "ctDNA monitoring for treatment response" },
+      ],
+      tags: [
+        { label: "Biomarker Discovery" },
+        { label: "Precision Medicine" },
+        { label: "Clinical Translation" },
+      ],
+    },
+  ],
+  methods: [
+    {
+      title: "Computational Genomics",
+      description:
+        "Advanced pipelines for whole-genome, whole-exome, and transcriptomic data analysis.",
+      accent: "primary" as const,
+    },
+    {
+      title: "Machine Learning",
+      description:
+        "Supervised, unsupervised, and deep learning models tailored to genomic signals.",
+      accent: "secondary" as const,
+    },
+    {
+      title: "Data Integration",
+      description:
+        "Combining genomic, epigenomic, transcriptomic, and clinical data for holistic insights.",
+      accent: "accent" as const,
+    },
+    {
+      title: "Statistical Modeling",
+      description:
+        "Robust statistical frameworks for mutational processes and clinical associations.",
+      accent: "primary" as const,
+    },
+  ],
+  resources: [
+    {
+      title: "SignatureExplorer",
+      description:
+        "A comprehensive suite for extracting and interpreting mutational signatures.",
+      accent: "primary" as const,
+      links: [
+        { label: "GitHub", href: "#" },
+        { label: "Documentation", href: "#" },
+      ],
+    },
+    {
+      title: "GenomeInstability",
+      description:
+        "Toolkit for quantifying genomic instability across patient cohorts.",
+      accent: "secondary" as const,
+      links: [
+        { label: "GitHub", href: "#" },
+        { label: "Documentation", href: "#" },
+      ],
+    },
+    {
+      title: "MultiOmicsIntegrator",
+      description:
+        "Framework for harmonizing multi-omics data and generating integrative models.",
+      accent: "accent" as const,
+      links: [{ label: "GitHub", href: "#" }],
+    },
+  ],
+};
+
 export default {
   /**
    * An asynchronous register function that runs before
@@ -217,6 +483,52 @@ export default {
    * run jobs, or perform some special logic.
    */
   async bootstrap({ strapi }: { strapi: Core.Strapi }) {
+    try {
+    const existingPublications = await strapi.entityService.findMany(
+      "api::publication.publication",
+      { fields: ["id"], limit: 1 }
+    );
+
+    const hasPublications = Array.isArray(existingPublications)
+      ? existingPublications.length > 0
+      : Boolean(existingPublications);
+
+    if (!hasPublications) {
+      for (const publication of defaultPublications) {
+        try {
+          await strapi.entityService.create("api::publication.publication", {
+            data: publication,
+          });
+        } catch (publicationError) {
+          strapi.log.error(
+            `Failed to seed publication ${publication.title}`,
+            publicationError
+          );
+        }
+      }
+      strapi.log.info("Seeded default publications");
+    }
+
+    const existingResearch = await strapi.entityService.findMany(
+      "api::research-page.research-page",
+      { limit: 1 }
+    );
+
+    const hasResearch = Array.isArray(existingResearch)
+      ? existingResearch.length > 0
+      : Boolean(existingResearch);
+
+    if (!hasResearch) {
+      await strapi.entityService.create("api::research-page.research-page", {
+        data: defaultResearchPage,
+      });
+      strapi.log.info("Seeded default research page");
+    }
+
+    } catch (error) {
+      strapi.log.error("Failed to seed publications or research page", error);
+    }
+
     try {
       const existing = await strapi.entityService.findMany(
         "api::global-setting.global-setting",

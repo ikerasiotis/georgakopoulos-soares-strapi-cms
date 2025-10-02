@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_research_methods",
+  "info": {
+    "displayName": "Method",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "accent": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary", "accent"],
+      "default": "primary"
+    }
+  }
+}

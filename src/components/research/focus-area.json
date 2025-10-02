@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_research_focus_areas",
+  "info": {
+    "displayName": "Focus Area",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "accent": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary", "accent"],
+      "default": "primary"
+    },
+    "descriptionParagraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research.paragraph"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research.list-item"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research.tag"
+    }
+  }
+}

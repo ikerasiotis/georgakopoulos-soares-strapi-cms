@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "research_pages",
+  "info": {
+    "singularName": "research-page",
+    "pluralName": "research-pages",
+    "displayName": "Research Page",
+    "description": "Research landing page content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "default": "Research Areas",
+      "required": true
+    },
+    "heroSubtitle": {
+      "type": "string",
+      "default": "Exploring the genomic landscape of cancer through computational approaches"
+    },
+    "approachParagraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research.paragraph"
+    },
+    "approachHighlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research.highlight"
+    },
+    "focusAreas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research.focus-area"
+    },
+    "methods": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research.method"
+    },
+    "resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "research.resource"
+    }
+  }
+}

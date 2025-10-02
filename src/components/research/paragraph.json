@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_research_paragraphs",
+  "info": {
+    "displayName": "Paragraph",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
