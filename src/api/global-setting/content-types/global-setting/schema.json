@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_settings",
+  "info": {
+    "singularName": "global-setting",
+    "pluralName": "global-settings",
+    "displayName": "Global Setting",
+    "description": "Site-wide configuration for navigation and branding"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "default": "Georgakopoulos-Soares Lab",
+      "required": true
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "primaryNavigation": {
+      "type": "component",
+      "component": "navigation.link",
+      "repeatable": true
+    },
+    "utilityNavigation": {
+      "type": "component",
+      "component": "navigation.link",
+      "repeatable": true
+    },
+    "footerNavigation": {
+      "type": "component",
+      "component": "navigation.link",
+      "repeatable": true
+    },
+    "footerText": {
+      "type": "text",
+      "default": "© Georgakopoulos-Soares Lab. All rights reserved."
+    },
+    "contactCtaLabel": {
+      "type": "string",
+      "default": "Contact Us"
+    },
+    "contactCtaUrl": {
+      "type": "string",
+      "default": "/contact"
+    },
+    "contactCtaDescription": {
+      "type": "text",
+      "default": "We are always open to new collaborations and partnerships. Get in touch to discuss potential research opportunities."
+    }
+  }
+}

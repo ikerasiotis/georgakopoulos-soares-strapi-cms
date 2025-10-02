@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_pages",
+  "info": {
+    "singularName": "team-page",
+    "pluralName": "team-pages",
+    "displayName": "Team Page",
+    "description": "Content for the team page including PI and members"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "default": "Our Team",
+      "required": true
+    },
+    "heroSubtitle": {
+      "type": "string",
+      "default": "Meet the researchers driving innovation in cancer genomics and computational biology"
+    },
+    "principalInvestigatorName": {
+      "type": "string",
+      "default": "Dr. Ilias Georgakopoulos-Soares",
+      "required": true
+    },
+    "principalInvestigatorTitle": {
+      "type": "string",
+      "default": "Principal Investigator"
+    },
+    "principalInvestigatorSummary": {
+      "type": "text",
+      "default": "Dr. Georgakopoulos-Soares is an Assistant Professor at the Department of Biochemistry and Molecular Biology at Penn State University. His research focuses on understanding the mechanisms that shape cancer genomes and their implications for cancer development, progression, and treatment response.\n\nThe lab develops computational methods to study mutational processes in cancer and their interactions with the genome and epigenome. Their work aims to improve our understanding of cancer biology and contribute to the development of new diagnostic and therapeutic approaches."
+    },
+    "principalInvestigatorPortrait": {
+      "type": "media",
+      "allowedTypes": ["images"],
+      "multiple": false
+    },
+    "principalInvestigatorEducation": {
+      "type": "component",
+      "component": "team.education-item",
+      "repeatable": true
+    },
+    "principalInvestigatorSocialLinks": {
+      "type": "component",
+      "component": "team.social-link",
+      "repeatable": true
+    },
+    "members": {
+      "type": "component",
+      "component": "team.member",
+      "repeatable": true
+    }
+  }
+}

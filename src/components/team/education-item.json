@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_team_education_items",
+  "info": {
+    "displayName": "Education Item",
+    "icon": "graduation-cap"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

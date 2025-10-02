@@ -1,0 +1,110 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_infos",
+  "info": {
+    "singularName": "contact-info",
+    "pluralName": "contact-infos",
+    "displayName": "Contact Info",
+    "description": "Contact details and social links for the public site"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "default": "Contact Us",
+      "required": true
+    },
+    "heroSubtitle": {
+      "type": "string",
+      "default": "College of Pharmacy, Division of Pharmacology & Toxicology",
+      "required": false
+    },
+    "department": {
+      "type": "string",
+      "default": "College of Pharmacy, Division of Pharmacology & Toxicology",
+      "required": true
+    },
+    "institution": {
+      "type": "string",
+      "default": "University of Texas at Austin",
+      "required": true
+    },
+    "addressLine": {
+      "type": "string",
+      "default": "Dell Pediatric Research Institute",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "default": "Austin",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "default": "TX",
+      "required": true
+    },
+    "postalCode": {
+      "type": "string",
+      "default": "78723",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "labPhone": {
+      "type": "string",
+      "required": false
+    },
+    "officePhone": {
+      "type": "string",
+      "required": false
+    },
+    "officeHoursWeekdays": {
+      "type": "string",
+      "default": "Monday - Friday: 9:00 AM - 5:00 PM",
+      "required": false
+    },
+    "officeHoursWeekend": {
+      "type": "string",
+      "default": "Saturday - Sunday: Closed",
+      "required": false
+    },
+    "twitterUrl": {
+      "type": "string",
+      "required": false
+    },
+    "linkedinUrl": {
+      "type": "string",
+      "required": false
+    },
+    "githubUrl": {
+      "type": "string",
+      "required": false
+    },
+    "googleScholarUrl": {
+      "type": "string",
+      "default": "https://scholar.google.com/citations?user=BDaUtCwAAAAJ&hl=el&oi=sra",
+      "required": false
+    },
+    "pubmedUrl": {
+      "type": "string",
+      "default": "https://pubmed.ncbi.nlm.nih.gov/?term=Georgakopoulos-Soares",
+      "required": false
+    },
+    "mapEmbedUrl": {
+      "type": "text",
+      "default": "https://maps.google.com/maps?q=Dell%20Pediatric%20Research%20Institute%201400%20Barbara%20Jordan%20Blvd%20Austin%20TX%2078723&output=embed",
+      "required": false
+    },
+    "mapLinkUrl": {
+      "type": "string",
+      "default": "https://maps.app.goo.gl/nuZwmwKC2mZcXRwJ6",
+      "required": false
+    }
+  }
+}

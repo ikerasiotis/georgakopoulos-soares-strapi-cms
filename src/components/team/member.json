@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_team_members",
+  "info": {
+    "displayName": "Team Member",
+    "icon": "users"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "focus": {
+      "type": "string"
+    },
+    "affiliation": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "portrait": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "github": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    }
+  }
+}
