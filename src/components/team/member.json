@@ -34,6 +34,9 @@
     "github": {
       "type": "string"
     },
+    "googleScholar": {
+      "type": "string"
+    },
     "linkedin": {
       "type": "string"
     }

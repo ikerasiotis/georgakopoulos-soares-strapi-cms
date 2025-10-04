@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tools",
+  "info": {
+    "singularName": "tool",
+    "pluralName": "tools",
+    "displayName": "Tool",
+    "description": "Lab-developed tools and software resources sourced from tools.json"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "json",
+      "default": []
+    },
+    "keypoints": {
+      "type": "json",
+      "default": []
+    },
+    "features": {
+      "type": "json",
+      "default": []
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

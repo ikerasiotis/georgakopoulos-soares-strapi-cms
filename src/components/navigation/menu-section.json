@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_navigation_menu_sections",
+  "info": {
+    "displayName": "Menu Section",
+    "description": "Grouped links for mega menu layouts",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "type": "component",
+      "component": "navigation.sub-link",
+      "repeatable": true
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "ctaUrl": {
+      "type": "string"
+    },
+    "ctaOpenInNewTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "ctaAriaLabel": {
+      "type": "string"
+    }
+  }
+}

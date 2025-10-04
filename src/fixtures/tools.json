@@ -1,0 +1,75 @@
+[
+  {
+    "title": "MAFcounter: An efficient tool for counting the occurrences of k-mers in MAF files",
+    "keywords": [
+      "k-mer counting",
+      "multiple alignment",
+      "MAF format",
+      "genomics",
+      "proteomics"
+    ],
+    "description": "MAFcounter is the first k-mer counting tool specifically designed to operate on alignment files in the MAF (Multiple Alignment Format). It supports DNA and protein alignments, is multithreaded, fast and memory-efficient, and offers a versatile set of features for k-mer analysis directly in alignment context. It fills a gap because existing k-mer counters typically work on raw sequence data (e.g. FASTA) rather than alignments.",
+    "keypoints": [
+      "Dedicated k-mer counting in MAF alignment files (DNA and protein)",
+      "Multithreaded and memory-efficient implementation",
+      "Provides a wide variety of k-mer analysis features",
+      "Open-source under GPL, available on GitHub"
+    ],
+    "tool_features": [
+      "Input: MAF alignment files",
+      "Counts DNA and protein k-mers",
+      "Supports customizable k lengths",
+      "Parallelized (multithreading) for performance",
+      "Light memory footprint compared to standard k-mer counters"
+    ],
+    "link": "https://link.springer.com/article/10.1186/s12859-025-06172-7"
+  },
+  {
+    "title": "ZSeeker: An optimized algorithm for Z-DNA detection in genomic sequences",
+    "keywords": [
+      "Z-DNA",
+      "non-B DNA structure",
+      "genomic sequence analysis",
+      "computational detection"
+    ],
+    "description": "ZSeeker is a novel computational algorithm designed to identify potential Z-DNA forming sequences within genomic DNA. Z-DNA is an alternative left-handed DNA helix with a zigzag backbone, distinct from canonical B-DNA, and has been implicated in processes such as transcription, replication, DNA repair, and genetic instability. ZSeeker improves upon prior approaches in terms of computational efficiency, usability, and interpretability, and is provided both as a Python package and via a web interface to facilitate accessibility.",
+    "keypoints": [
+      "Detects potential Z-DNA-forming sequences in genomic data",
+      "Addresses limitations of earlier methods (efficiency, usability, interpretability)",
+      "Offered as both a standalone Python package and web interface",
+      "Allows users to adjust detection parameters and provides output visualization"
+    ],
+    "tool_features": [
+      "Input: Genomic sequences (FASTA and similar)",
+      "Detection algorithm optimized for Z-DNA motifs",
+      "Configurable detection thresholds and scoring system",
+      "Output includes Z-DNA loci with Z-scores",
+      "Available as Python package and web-based interface"
+    ],
+    "link": "https://academic.oup.com/bib/article/26/3/bbaf240/8153690"
+  },
+  {
+    "title": "MAFin: Motif detection in multiple alignment files",
+    "keywords": [
+      "motif detection",
+      "MAF format",
+      "conservation analysis",
+      "genomic motifs"
+    ],
+    "description": "MAFin is a tool for finding conserved motifs directly within multiple alignment files (MAF format). It supports three modes of motif specification: (i) exact k-mers provided by the user, (ii) patterns defined via regular expressions, and (iii) position-weight matrices (PWMs). After motif detection, MAFin computes conservation statistics across aligned sequences, quantifies conservation percentages, and outputs results in JSON or CSV for downstream analysis.",
+    "keypoints": [
+      "First tool to detect motifs inside MAF alignment files directly",
+      "Supports motif specification via k-mers, regex, or PWMs",
+      "Calculates conservation across aligned sequences and outputs conservation percentage metrics",
+      "Exports results in JSON / CSV formats for downstream use"
+    ],
+    "tool_features": [
+      "Input: MAF alignment files",
+      "Motif specification: exact k-mers, regex, or PWMs",
+      "Outputs motif occurrences and conservation levels",
+      "Exports results in JSON and CSV",
+      "Supports large alignment files with efficient parsing"
+    ],
+    "link": "https://academic.oup.com/bioinformatics/article/41/4/btaf125/8086993"
+  }
+]

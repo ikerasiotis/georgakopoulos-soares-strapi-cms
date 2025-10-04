@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "tools_pages",
+  "info": {
+    "singularName": "tools-page",
+    "pluralName": "tools-pages",
+    "displayName": "Tools Page",
+    "description": "Textual content for the lab tools landing page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroEyebrow": {
+      "type": "string",
+      "default": "Lab Software"
+    },
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Tools Empowering Genomic Discovery"
+    },
+    "heroDescription": {
+      "type": "text",
+      "default": "We design and maintain open-source software for handling large-scale genomic data, revealing DNA structural patterns, and streamlining computational biology workflows. Explore the toolset that supports our collaborators and the wider scientific community."
+    },
+    "featuredTitle": {
+      "type": "string",
+      "default": "Featured resources"
+    },
+    "featuredDescription": {
+      "type": "text",
+      "default": "From scalable k-mer analytics to structural motif detection, each tool includes documentation and ready-to-use code to integrate with your pipelines."
+    },
+    "keywordsLabel": {
+      "type": "string",
+      "default": "Keywords"
+    },
+    "highlightsLabel": {
+      "type": "string",
+      "default": "Highlights"
+    },
+    "featuresLabel": {
+      "type": "string",
+      "default": "Key features"
+    },
+    "linkLabel": {
+      "type": "string",
+      "default": "Explore tool"
+    },
+    "linkFallbackLabel": {
+      "type": "string",
+      "default": "Link coming soon"
+    }
+  }
+}

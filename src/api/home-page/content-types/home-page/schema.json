@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": "Content for the public homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "default": "Georgakopoulos-Soares Lab",
+      "required": true
+    },
+    "heroSubtitle": {
+      "type": "string",
+      "default": "Decoding cancer genomics through computational biology"
+    },
+    "aboutHeading": {
+      "type": "string",
+      "default": "About Our Lab"
+    },
+    "aboutBody": {
+      "type": "richtext"
+    },
+    "aboutImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

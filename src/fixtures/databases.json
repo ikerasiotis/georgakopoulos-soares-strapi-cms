@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Quadrupia: A comprehensive catalog of G-quadruplexes across genomes from the tree of life",
+    "keywords": [
+      "G-quadruplex",
+      "DNA structures",
+      "genome annotation",
+      "comparative genomics"
+    ],
+    "description": "Quadrupia provides a large-scale catalog of G-quadruplexes (G4) across more than 100,000 genomes spanning the tree of life. G4s are non-canonical DNA structures formed by guanine tetrads and play roles in gene regulation and genome stability. This resource allows comparative and evolutionary analyses of G4 distribution across species.",
+    "keypoints": [
+      "Systematic mapping of G4 sequences across species",
+      "Over 140 million G4 structures identified",
+      "Supports comparative and regulatory genomics",
+      "Useful for studying DNA stability and transcriptional regulation"
+    ],
+    "est_entries": [
+      "~108,449 genomes",
+      "~140,181,277 G4 sequences",
+      "~319,784 G4 clusters"
+    ],
+    "link": "https://genome.cshlp.org/content/early/2025/08/25/gr.279790.124.long"
+  },
+  {
+    "title": "Microsatellites Explorer: A database of short tandem repeats across genomes",
+    "keywords": [
+      "short tandem repeats",
+      "microsatellites",
+      "population genetics",
+      "genomic variation"
+    ],
+    "description": "Microsatellites Explorer compiles short tandem repeats (STRs, microsatellites) from more than 117,000 genomes. STRs are repetitive DNA elements that are important markers for population genetics, forensics, and evolutionary biology. The platform provides a searchable interface and supports statistical and comparative analysis of STR distribution.",
+    "keypoints": [
+      "Database of STRs from thousands of genomes",
+      "Covers >117,000 organisms",
+      "Supports research in diversity, forensics, and comparative genomics",
+      "Provides visualization and download features"
+    ],
+    "est_entries": [
+      "~117,253 genomes",
+      "Millions of STR sequences (not explicitly specified)"
+    ],
+    "link": "https://www.sciencedirect.com/science/article/pii/S2001037024003611"
+  },
+  {
+    "title": "kmerDB: A database encompassing genomic and proteomic k-mers",
+    "keywords": ["k-mers", "genomics", "proteomics", "bioinformatics"],
+    "description": "kmerDB is a database of genomic and proteomic k-mers, allowing researchers to analyze sub-sequences of DNA and proteins. K-mers are fundamental to bioinformatics, used in sequence alignment, genome assembly, motif discovery, and evolutionary analysis. This resource enables large-scale querying and cross-species comparisons.",
+    "keypoints": [
+      "Includes both DNA and peptide k-mers",
+      "Supports motif discovery and functional associations",
+      "Useful for metagenomics and proteomics",
+      "Provides a unified k-mer search framework"
+    ],
+    "est_entries": ["Billions of k-mer entries (not explicitly specified)"],
+    "link": "https://www.sciencedirect.com/science/article/pii/S2001037024001314"
+  },
+  {
+    "title": "MPRAbase: A Massively Parallel Reporter Assay database",
+    "keywords": [
+      "MPRA",
+      "functional genomics",
+      "regulatory elements",
+      "gene expression"
+    ],
+    "description": "MPRAbase is a curated database of Massively Parallel Reporter Assay (MPRA) results. It consolidates experimental data on the activity of regulatory DNA elements across different cell types and species. This allows functional analysis of gene regulation and the impact of variants on enhancer and promoter activity.",
+    "keypoints": [
+      "Contains 130 MPRA experiments",
+      "Covers 35 cell types across 4 species",
+      "Over 17 million tested elements",
+      "Provides downloadable datasets and query interface"
+    ],
+    "est_entries": [
+      "17,718,677 elements",
+      "130 experiments",
+      "35 cell types",
+      "4 organisms"
+    ],
+    "link": "https://genome.cshlp.org/content/early/2025/04/22/gr.280387.124.abstract"
+  },
+  {
+    "title": "invertiaDB: A database of inverted repeats across genomes",
+    "keywords": [
+      "inverted repeats",
+      "DNA secondary structures",
+      "genome instability",
+      "hairpins"
+    ],
+    "description": "invertiaDB provides a comprehensive collection of inverted repeats (IRs) from over 118,000 genomes, totaling more than 30 million sequences. IRs can form hairpins and cruciform DNA structures, which affect genome stability, replication, and rearrangements. The database supports advanced filtering and large-scale downloads.",
+    "keypoints": [
+      "Over 30 million inverted repeats",
+      "Covers >118,000 genomes",
+      "Searchable by length, GC content, and spacer size",
+      "Correlation observed between IR density and bacterial growth temperature"
+    ],
+    "est_entries": ["30,067,666 inverted repeats", "118,070 genomes"],
+    "link": "https://academic.oup.com/nar/article/53/8/gkaf329/8118974"
+  },
+  {
+    "title": "Darling v2.0: Mining disease-related literature",
+    "keywords": [
+      "text mining",
+      "biomedical informatics",
+      "disease associations",
+      "knowledge discovery"
+    ],
+    "description": "Darling v2.0 is a web-based application that mines biomedical literature and databases to extract associations between genes, diseases, drugs, and proteins. It integrates multiple data sources and applies advanced text mining techniques to provide structured knowledge graphs for biomedical research.",
+    "keypoints": [
+      "Extracts gene–disease–drug relationships",
+      "Integrates multiple biomedical databases",
+      "Supports visualization of associations",
+      "Useful for drug discovery and bioinformatics pipelines"
+    ],
+    "est_entries": [
+      "Tens to hundreds of thousands of associations (not explicitly specified)"
+    ],
+    "link": "https://www.sciencedirect.com/science/article/pii/S2001037025002405"
+  },
+  {
+    "title": "metagRoot: A comprehensive database of protein families in plant root microbiomes",
+    "keywords": [
+      "root microbiome",
+      "protein families",
+      "metagenomics",
+      "plant–microbe interactions"
+    ],
+    "description": "metagRoot compiles protein families from plant root microbiomes, enabling functional analysis of microbial communities associated with roots. It allows researchers to explore how different protein families contribute to nutrient cycling, symbiosis, and plant health, and to compare microbiomes across plant species and conditions.",
+    "keypoints": [
+      "Focus on root-associated microbiomes",
+      "Catalog of protein families from metagenomic data",
+      "Links microbial proteins to ecological and functional roles",
+      "Supports cross-species comparisons of microbiomes"
+    ],
+    "est_entries": [
+      "Tens of thousands of protein families (not explicitly specified)"
+    ],
+    "link": "https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaf862/8245223"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "database_pages",
+  "info": {
+    "singularName": "database-page",
+    "pluralName": "database-pages",
+    "displayName": "Database Page",
+    "description": "Textual content for the databases landing page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroEyebrow": {
+      "type": "string",
+      "default": "Data Resources"
+    },
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Curated Databases for Genomic Discovery"
+    },
+    "heroDescription": {
+      "type": "text",
+      "default": "The Georgakopoulos-Soares Lab contributes to and maintains databases that capture genomic variation, regulatory elements, and computational tools. Explore these resources to support your own research and collaborations."
+    },
+    "featuredTitle": {
+      "type": "string",
+      "default": "Featured datasets & portals"
+    },
+    "featuredDescription": {
+      "type": "text",
+      "default": "Each entry includes key highlights, scale, and keywords to help you identify the best fit for your work."
+    },
+    "keywordsLabel": {
+      "type": "string",
+      "default": "Keywords"
+    },
+    "highlightsLabel": {
+      "type": "string",
+      "default": "Highlights"
+    },
+    "scaleLabel": {
+      "type": "string",
+      "default": "Scale & coverage"
+    },
+    "linkLabel": {
+      "type": "string",
+      "default": "Visit resource"
+    },
+    "linkFallbackLabel": {
+      "type": "string",
+      "default": "Link coming soon"
+    }
+  }
+}

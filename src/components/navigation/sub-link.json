@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_navigation_links",
+  "collectionName": "components_navigation_sub_links",
   "info": {
-    "displayName": "Link",
-    "description": "Navigation link item",
+    "displayName": "Sub Link",
+    "description": "Secondary navigation link",
     "icon": "link"
   },
   "options": {},
@@ -25,16 +25,6 @@
     },
     "ariaLabel": {
       "type": "string"
-    },
-    "subLinks": {
-      "type": "component",
-      "component": "navigation.sub-link",
-      "repeatable": true
-    },
-    "megaMenuSections": {
-      "type": "component",
-      "component": "navigation.menu-section",
-      "repeatable": true
     }
   }
 }

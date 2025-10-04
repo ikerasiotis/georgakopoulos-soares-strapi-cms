@@ -11,6 +11,45 @@ export interface NavigationLink extends Struct.ComponentSchema {
     ariaLabel: Schema.Attribute.String;
     isVisible: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
     label: Schema.Attribute.String & Schema.Attribute.Required;
+    megaMenuSections: Schema.Attribute.Component<
+      'navigation.menu-section',
+      true
+    >;
+    openInNewTab: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
+    subLinks: Schema.Attribute.Component<'navigation.sub-link', true>;
+    url: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface NavigationMenuSection extends Struct.ComponentSchema {
+  collectionName: 'components_navigation_menu_sections';
+  info: {
+    description: 'Grouped links for mega menu layouts';
+    displayName: 'Menu Section';
+    icon: 'list';
+  };
+  attributes: {
+    ctaAriaLabel: Schema.Attribute.String;
+    ctaLabel: Schema.Attribute.String;
+    ctaOpenInNewTab: Schema.Attribute.Boolean &
+      Schema.Attribute.DefaultTo<false>;
+    ctaUrl: Schema.Attribute.String;
+    links: Schema.Attribute.Component<'navigation.sub-link', true>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface NavigationSubLink extends Struct.ComponentSchema {
+  collectionName: 'components_navigation_sub_links';
+  info: {
+    description: 'Secondary navigation link';
+    displayName: 'Sub Link';
+    icon: 'link';
+  };
+  attributes: {
+    ariaLabel: Schema.Attribute.String;
+    isVisible: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    label: Schema.Attribute.String & Schema.Attribute.Required;
     openInNewTab: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     url: Schema.Attribute.String & Schema.Attribute.Required;
   };
@@ -179,6 +218,7 @@ export interface TeamMember extends Struct.ComponentSchema {
     email: Schema.Attribute.Email;
     focus: Schema.Attribute.String;
     github: Schema.Attribute.String;
+    googleScholar: Schema.Attribute.String;
     linkedin: Schema.Attribute.String;
     name: Schema.Attribute.String & Schema.Attribute.Required;
     portrait: Schema.Attribute.Media<'images'>;
@@ -206,6 +246,8 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'navigation.link': NavigationLink;
+      'navigation.menu-section': NavigationMenuSection;
+      'navigation.sub-link': NavigationSubLink;
       'publication.author': PublicationAuthor;
       'publication.resource': PublicationResource;
       'research.focus-area': ResearchFocusArea;

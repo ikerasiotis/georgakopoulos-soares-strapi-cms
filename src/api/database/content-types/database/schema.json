@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "databases",
+  "info": {
+    "singularName": "database",
+    "pluralName": "databases",
+    "displayName": "Database",
+    "description": "Research database resources imported from databases.json"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "json",
+      "default": []
+    },
+    "keypoints": {
+      "type": "json",
+      "default": []
+    },
+    "estEntries": {
+      "type": "json",
+      "default": []
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

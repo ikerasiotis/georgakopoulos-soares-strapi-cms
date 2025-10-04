@@ -536,6 +536,89 @@ export interface ApiContactInfoContactInfo extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiDatabasePageDatabasePage extends Struct.SingleTypeSchema {
+  collectionName: 'database_pages';
+  info: {
+    description: 'Textual content for the databases landing page';
+    displayName: 'Database Page';
+    pluralName: 'database-pages';
+    singularName: 'database-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    featuredDescription: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'Each entry includes key highlights, scale, and keywords to help you identify the best fit for your work.'>;
+    featuredTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Featured datasets & portals'>;
+    heroDescription: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'The Georgakopoulos-Soares Lab contributes to and maintains databases that capture genomic variation, regulatory elements, and computational tools. Explore these resources to support your own research and collaborations.'>;
+    heroEyebrow: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Data Resources'>;
+    heroTitle: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'Curated Databases for Genomic Discovery'>;
+    highlightsLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Highlights'>;
+    keywordsLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Keywords'>;
+    linkFallbackLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Link coming soon'>;
+    linkLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Visit resource'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::database-page.database-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    scaleLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Scale & coverage'>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiDatabaseDatabase extends Struct.CollectionTypeSchema {
+  collectionName: 'databases';
+  info: {
+    description: 'Research database resources imported from databases.json';
+    displayName: 'Database';
+    pluralName: 'databases';
+    singularName: 'database';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text;
+    estEntries: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<[]>;
+    keypoints: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<[]>;
+    keywords: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<[]>;
+    link: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::database.database'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
   collectionName: 'global_settings';
   info: {
@@ -577,6 +660,43 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     utilityNavigation: Schema.Attribute.Component<'navigation.link', true>;
+  };
+}
+
+export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
+  collectionName: 'home_pages';
+  info: {
+    description: 'Content for the public homepage';
+    displayName: 'Home Page';
+    pluralName: 'home-pages';
+    singularName: 'home-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    aboutBody: Schema.Attribute.RichText;
+    aboutHeading: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'About Our Lab'>;
+    aboutImage: Schema.Attribute.Media<'images'>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    heroSubtitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Decoding cancer genomics through computational biology'>;
+    heroTitle: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'Georgakopoulos-Soares Lab'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::home-page.home-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
   };
 }
 
@@ -707,6 +827,86 @@ export interface ApiTeamPageTeamPage extends Struct.SingleTypeSchema {
       Schema.Attribute.DefaultTo<'Dr. Georgakopoulos-Soares is an Assistant Professor at the Department of Biochemistry and Molecular Biology at Penn State University. His research focuses on understanding the mechanisms that shape cancer genomes and their implications for cancer development, progression, and treatment response.\n\nThe lab develops computational methods to study mutational processes in cancer and their interactions with the genome and epigenome. Their work aims to improve our understanding of cancer biology and contribute to the development of new diagnostic and therapeutic approaches.'>;
     principalInvestigatorTitle: Schema.Attribute.String &
       Schema.Attribute.DefaultTo<'Principal Investigator'>;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiToolTool extends Struct.CollectionTypeSchema {
+  collectionName: 'tools';
+  info: {
+    description: 'Lab-developed tools and software resources sourced from tools.json';
+    displayName: 'Tool';
+    pluralName: 'tools';
+    singularName: 'tool';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text;
+    features: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<[]>;
+    keypoints: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<[]>;
+    keywords: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<[]>;
+    link: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::tool.tool'> &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiToolsPageToolsPage extends Struct.SingleTypeSchema {
+  collectionName: 'tools_pages';
+  info: {
+    description: 'Textual content for the lab tools landing page';
+    displayName: 'Tools Page';
+    pluralName: 'tools-pages';
+    singularName: 'tools-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    featuredDescription: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'From scalable k-mer analytics to structural motif detection, each tool includes documentation and ready-to-use code to integrate with your pipelines.'>;
+    featuredTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Featured resources'>;
+    featuresLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Key features'>;
+    heroDescription: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'We design and maintain open-source software for handling large-scale genomic data, revealing DNA structural patterns, and streamlining computational biology workflows. Explore the toolset that supports our collaborators and the wider scientific community.'>;
+    heroEyebrow: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Lab Software'>;
+    heroTitle: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'Tools Empowering Genomic Discovery'>;
+    highlightsLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Highlights'>;
+    keywordsLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Keywords'>;
+    linkFallbackLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Link coming soon'>;
+    linkLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Explore tool'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::tools-page.tools-page'
+    > &
+      Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -1226,10 +1426,15 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::contact-info.contact-info': ApiContactInfoContactInfo;
+      'api::database-page.database-page': ApiDatabasePageDatabasePage;
+      'api::database.database': ApiDatabaseDatabase;
       'api::global-setting.global-setting': ApiGlobalSettingGlobalSetting;
+      'api::home-page.home-page': ApiHomePageHomePage;
       'api::publication.publication': ApiPublicationPublication;
       'api::research-page.research-page': ApiResearchPageResearchPage;
       'api::team-page.team-page': ApiTeamPageTeamPage;
+      'api::tool.tool': ApiToolTool;
+      'api::tools-page.tools-page': ApiToolsPageToolsPage;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;
