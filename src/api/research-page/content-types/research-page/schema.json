@@ -21,6 +21,10 @@
       "type": "string",
       "default": "Exploring the genomic landscape of cancer through computational approaches"
     },
+    "approachTitle": {
+      "type": "string",
+      "default": "Our Approach"
+    },
     "approachParagraphs": {
       "type": "component",
       "repeatable": true,
@@ -36,15 +40,31 @@
       "repeatable": true,
       "component": "research.focus-area"
     },
+    "focusTitle": {
+      "type": "string",
+      "default": "Research Focus Areas"
+    },
+    "focusProjectsLabel": {
+      "type": "string",
+      "default": "Key Projects"
+    },
     "methods": {
       "type": "component",
       "repeatable": true,
       "component": "research.method"
     },
+    "methodsTitle": {
+      "type": "string",
+      "default": "Our Methods & Technologies"
+    },
     "resources": {
       "type": "component",
       "repeatable": true,
       "component": "research.resource"
+    },
+    "resourcesTitle": {
+      "type": "string",
+      "default": "Software & Resources"
     }
   }
 }

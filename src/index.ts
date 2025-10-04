@@ -404,6 +404,7 @@ const defaultResearchPage = {
   heroTitle: "Research Areas",
   heroSubtitle:
     "Exploring the genomic landscape of cancer through computational approaches",
+  approachTitle: "Our Approach",
   approachParagraphs: [
     {
       content:
@@ -444,6 +445,8 @@ const defaultResearchPage = {
       accent: "primary" as const,
     },
   ],
+  focusTitle: "Research Focus Areas",
+  focusProjectsLabel: "Key Projects",
   focusAreas: [
     {
       title: "Mutational Signatures in Cancer",
@@ -583,6 +586,7 @@ const defaultResearchPage = {
       accent: "primary" as const,
     },
   ],
+  methodsTitle: "Our Methods & Technologies",
   resources: [
     {
       title: "SignatureExplorer",
@@ -612,6 +616,7 @@ const defaultResearchPage = {
       links: [{ label: "GitHub", href: "#" }],
     },
   ],
+  resourcesTitle: "Software & Resources",
 };
 
 export default {

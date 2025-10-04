@@ -760,10 +760,16 @@ export interface ApiResearchPageResearchPage extends Struct.SingleTypeSchema {
   attributes: {
     approachHighlights: Schema.Attribute.Component<'research.highlight', true>;
     approachParagraphs: Schema.Attribute.Component<'research.paragraph', true>;
+    approachTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Our Approach'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     focusAreas: Schema.Attribute.Component<'research.focus-area', true>;
+    focusProjectsLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Key Projects'>;
+    focusTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Research Focus Areas'>;
     heroSubtitle: Schema.Attribute.String &
       Schema.Attribute.DefaultTo<'Exploring the genomic landscape of cancer through computational approaches'>;
     heroTitle: Schema.Attribute.String &
@@ -776,8 +782,12 @@ export interface ApiResearchPageResearchPage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     methods: Schema.Attribute.Component<'research.method', true>;
+    methodsTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Our Methods & Technologies'>;
     publishedAt: Schema.Attribute.DateTime;
     resources: Schema.Attribute.Component<'research.resource', true>;
+    resourcesTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Software & Resources'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
