@@ -821,6 +821,11 @@ export interface ApiTeamPageTeamPage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     members: Schema.Attribute.Component<'team.member', true>;
+    membersSectionTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Meet our Team'>;
+    pastMembers: Schema.Attribute.Component<'team.member', true>;
+    pastMembersSectionTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Past Members'>;
     principalInvestigatorEducation: Schema.Attribute.Component<
       'team.education-item',
       true

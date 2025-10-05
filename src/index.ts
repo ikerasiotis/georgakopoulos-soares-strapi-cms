@@ -352,7 +352,29 @@ const defaultTeamPage = {
       iconKey: "github" as const,
     },
   ],
+  membersSectionTitle: "Meet our Team",
+  pastMembersSectionTitle: "Past Members",
   members: defaultTeamMembers,
+  pastMembers: [
+    {
+      __component: "team.member" as const,
+      name: "Alexis Martinez",
+      role: "Postdoctoral Fellow (2020-2024)",
+      focus: "Computational Genomics",
+      affiliation: "Now at Broad Institute",
+      email: null,
+      bio: "Alexis led the development of cross-cohort mutational signature models and continues to collaborate with the lab on genomic instability projects.",
+    },
+    {
+      __component: "team.member" as const,
+      name: "Priya Desai",
+      role: "Research Scientist (2018-2023)",
+      focus: "Cancer Epigenomics",
+      affiliation: "Now at Genentech",
+      email: null,
+      bio: "Priya pioneered our chromatin accessibility pipelines and contributed to foundational work on non-B DNA structures.",
+    },
+  ],
 };
 
 const defaultHomePage = {

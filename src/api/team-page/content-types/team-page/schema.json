@@ -53,6 +53,19 @@
       "type": "component",
       "component": "team.member",
       "repeatable": true
+    },
+    "membersSectionTitle": {
+      "type": "string",
+      "default": "Meet our Team"
+    },
+    "pastMembersSectionTitle": {
+      "type": "string",
+      "default": "Past Members"
+    },
+    "pastMembers": {
+      "type": "component",
+      "component": "team.member",
+      "repeatable": true
     }
   }
 }
