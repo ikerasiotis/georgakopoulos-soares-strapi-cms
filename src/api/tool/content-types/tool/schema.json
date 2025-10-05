@@ -33,6 +33,11 @@
     },
     "link": {
       "type": "string"
+    },
+    "thumbnail": {
+      "type": "media",
+      "allowedTypes": ["images"],
+      "multiple": false
     }
   }
 }
