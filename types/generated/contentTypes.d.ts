@@ -701,6 +701,101 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiNewsArticleNewsArticle extends Struct.CollectionTypeSchema {
+  collectionName: 'news';
+  info: {
+    description: 'News articles and announcements';
+    displayName: 'News Article';
+    pluralName: 'news';
+    singularName: 'news-article';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    category: Schema.Attribute.Enumeration<
+      [
+        'Grant Award',
+        'Publication',
+        'Team',
+        'Conference',
+        'Software',
+        'Media',
+        'Collaboration',
+      ]
+    > &
+      Schema.Attribute.DefaultTo<'Publication'>;
+    content: Schema.Attribute.RichText & Schema.Attribute.Required;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    date: Schema.Attribute.DateTime & Schema.Attribute.Required;
+    excerpt: Schema.Attribute.Text & Schema.Attribute.Required;
+    featured: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
+    link: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::news-article.news-article'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.UID<'title'>;
+    thumbnail: Schema.Attribute.Media<'images'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiNewsPageNewsPage extends Struct.SingleTypeSchema {
+  collectionName: 'news_pages';
+  info: {
+    description: 'Static content for the news listing and detail pages';
+    displayName: 'News Page';
+    pluralName: 'news-pages';
+    singularName: 'news-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    backToNewsLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Back to all news'>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    emptyStateMessage: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'Check back soon for the latest updates from the Georgakopoulos-Soares Lab.'>;
+    emptyStateTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'No news just yet'>;
+    heroSubtitle: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'Stay updated with the latest news from the Georgakopoulos-Soares Laboratory.'>;
+    heroTitle: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'News & Updates'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::news-page.news-page'
+    > &
+      Schema.Attribute.Private;
+    notFoundMessage: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'The news article you are looking for is no longer available or may have been moved.'>;
+    notFoundTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Article not found'>;
+    publishedAt: Schema.Attribute.DateTime;
+    readMoreLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Read more'>;
+    readOriginalLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Read original source'>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiPublicationPublication extends Struct.CollectionTypeSchema {
   collectionName: 'publications';
   info: {
@@ -1447,6 +1542,8 @@ declare module '@strapi/strapi' {
       'api::database.database': ApiDatabaseDatabase;
       'api::global-setting.global-setting': ApiGlobalSettingGlobalSetting;
       'api::home-page.home-page': ApiHomePageHomePage;
+      'api::news-article.news-article': ApiNewsArticleNewsArticle;
+      'api::news-page.news-page': ApiNewsPageNewsPage;
       'api::publication.publication': ApiPublicationPublication;
       'api::research-page.research-page': ApiResearchPageResearchPage;
       'api::team-page.team-page': ApiTeamPageTeamPage;

@@ -53,6 +53,26 @@ type ToolSeed = {
   link?: string;
 };
 
+type NewsCategory =
+  | "Grant Award"
+  | "Publication"
+  | "Team"
+  | "Conference"
+  | "Software"
+  | "Media"
+  | "Collaboration";
+
+type NewsSeed = {
+  title: string;
+  category?: NewsCategory;
+  date: string;
+  excerpt: string;
+  content: string;
+  link?: string;
+  slug?: string;
+  featured?: boolean;
+};
+
 async function loadDatabaseSeeds(): Promise<DatabaseSeed[]> {
   const candidatePaths = [
     path.resolve(__dirname, "fixtures", "databases.json"),
@@ -175,6 +195,57 @@ const defaultToolsPage = {
   linkLabel: "Explore tool",
   linkFallbackLabel: "Link coming soon",
 };
+
+const defaultNewsPage = {
+  heroTitle: "News & Updates",
+  heroSubtitle:
+    "Stay updated with the latest news from the Georgakopoulos-Soares Laboratory.",
+  emptyStateTitle: "No news just yet",
+  emptyStateMessage:
+    "Check back soon for the latest updates from the Georgakopoulos-Soares Lab.",
+  readMoreLabel: "Read more",
+  readOriginalLabel: "Read original source",
+  notFoundTitle: "Article not found",
+  notFoundMessage:
+    "The news article you are looking for is no longer available or may have been moved.",
+  backToNewsLabel: "Back to all news",
+};
+
+const defaultNewsArticles: NewsSeed[] = [
+  {
+    title: "Lab Secures Major Grant to Advance Mutational Signature Research",
+    category: "Grant Award",
+    date: "2025-02-15T10:00:00Z",
+    excerpt:
+      "The Georgakopoulos-Soares Lab received a multi-year grant to develop computational methods for mapping rare mutational signatures across cancer cohorts.",
+    content:
+      "<p>The Georgakopoulos-Soares Laboratory has been awarded a multi-year research grant focused on accelerating the discovery of rare mutational signatures.</p><p>The funded project will integrate large-scale sequencing data with advanced machine learning models developed within the lab.</p>",
+    link: "https://example.com/grant-announcement",
+    slug: "lab-secures-major-grant",
+    featured: true,
+  },
+  {
+    title: "New Publication on DNA Structural Variants Released",
+    category: "Publication",
+    date: "2025-03-08T12:30:00Z",
+    excerpt:
+      "Our latest publication reveals how DNA structural variants shape genomic instability in aggressive tumors.",
+    content:
+      "<p>In collaboration with international partners, the lab has published a comprehensive study on DNA structural variants.</p><ul><li>Analysis of 1,200 whole-genome cancer samples</li><li>Integration of structural variant calling with chromatin accessibility data</li><li>Identification of new biomarkers linked to poor prognosis</li></ul>",
+    link: "https://example.com/publication",
+    slug: "dna-structural-variants-publication",
+  },
+  {
+    title: "Team Presents at the International Genomics Conference",
+    category: "Conference",
+    date: "2025-04-22T09:15:00Z",
+    excerpt:
+      "Lab members showcased new visualization tools for exploring mutational processes during this year's international genomics conference.",
+    content:
+      "<p>Several members of the Georgakopoulos-Soares Lab presented posters and talks on mutational process visualization.</p><p>The team also conducted a hands-on workshop demonstrating forthcoming features in our open-source toolkit.</p>",
+    slug: "international-genomics-conference",
+  },
+];
 
 const defaultTeamMembers = [
   {
@@ -779,6 +850,40 @@ export default {
       }
     }
 
+    const existingNews = await strapi.entityService.findMany(
+      "api::news-article.news-article",
+      { fields: ["id"], limit: 1 }
+    );
+
+    const hasNews = Array.isArray(existingNews)
+      ? existingNews.length > 0
+      : Boolean(existingNews);
+
+    if (!hasNews) {
+      for (const article of defaultNewsArticles) {
+        try {
+          await strapi.entityService.create("api::news-article.news-article", {
+            data: {
+              title: article.title,
+              slug: article.slug,
+              category: article.category ?? "Publication",
+              date: article.date,
+              excerpt: article.excerpt,
+              content: article.content,
+              link: article.link,
+              featured: article.featured ?? false,
+            },
+          });
+        } catch (newsError) {
+          strapi.log.error(
+            `Failed to seed news article ${article.title}`,
+            newsError
+          );
+        }
+      }
+      strapi.log.info("Seeded default news articles");
+    }
+
     const existingResearch = await strapi.entityService.findMany(
       "api::research-page.research-page",
       { limit: 1 }
@@ -825,6 +930,22 @@ export default {
           data: defaultToolsPage,
         });
         strapi.log.info("Seeded default tools page");
+      }
+
+      const existingNewsPage = await strapi.entityService.findMany(
+        "api::news-page.news-page",
+        { limit: 1 }
+      );
+
+      const hasNewsPage = Array.isArray(existingNewsPage)
+        ? existingNewsPage.length > 0
+        : Boolean(existingNewsPage);
+
+      if (!hasNewsPage) {
+        await strapi.entityService.create("api::news-page.news-page", {
+          data: defaultNewsPage,
+        });
+        strapi.log.info("Seeded default news page");
       }
     } catch (error) {
       strapi.log.error("Failed to seed publications or research page", error);

@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_pages",
+  "info": {
+    "singularName": "news-page",
+    "pluralName": "news-pages",
+    "displayName": "News Page",
+    "description": "Static content for the news listing and detail pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "News & Updates"
+    },
+    "heroSubtitle": {
+      "type": "text",
+      "default": "Stay updated with the latest news from the Georgakopoulos-Soares Laboratory."
+    },
+    "emptyStateTitle": {
+      "type": "string",
+      "default": "No news just yet"
+    },
+    "emptyStateMessage": {
+      "type": "text",
+      "default": "Check back soon for the latest updates from the Georgakopoulos-Soares Lab."
+    },
+    "readMoreLabel": {
+      "type": "string",
+      "default": "Read more"
+    },
+    "readOriginalLabel": {
+      "type": "string",
+      "default": "Read original source"
+    },
+    "notFoundTitle": {
+      "type": "string",
+      "default": "Article not found"
+    },
+    "notFoundMessage": {
+      "type": "text",
+      "default": "The news article you are looking for is no longer available or may have been moved."
+    },
+    "backToNewsLabel": {
+      "type": "string",
+      "default": "Back to all news"
+    }
+  }
+}
