@@ -21,6 +21,22 @@
       "type": "string",
       "default": "Decoding cancer genomics through computational biology"
     },
+    "heroPrimaryCtaLabel": {
+      "type": "string",
+      "default": "Our Research"
+    },
+    "heroPrimaryCtaHref": {
+      "type": "string",
+      "default": "/research"
+    },
+    "heroSecondaryCtaLabel": {
+      "type": "string",
+      "default": "Our Publications"
+    },
+    "heroSecondaryCtaHref": {
+      "type": "string",
+      "default": "/publications"
+    },
     "aboutHeading": {
       "type": "string",
       "default": "About Our Lab"
@@ -34,6 +50,47 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "publicationsSectionTitle": {
+      "type": "string",
+      "default": "Recent Publications"
+    },
+    "publicationsSectionViewAllLabel": {
+      "type": "string",
+      "default": "View all publications"
+    },
+    "researchHighlightsTitle": {
+      "type": "string",
+      "default": "Research Highlights"
+    },
+    "researchHighlightsCtaLabel": {
+      "type": "string",
+      "default": "Learn more"
+    },
+    "researchHighlightsCtaHref": {
+      "type": "string",
+      "default": "/research"
+    },
+    "newsSectionTitle": {
+      "type": "string",
+      "default": "Lab News & Updates"
+    },
+    "newsSectionReadMoreLabel": {
+      "type": "string",
+      "default": "Read more"
+    },
+    "newsSectionViewAllLabel": {
+      "type": "string",
+      "default": "Read more news"
+    },
+    "teamGalleryTitle": {
+      "type": "string",
+      "default": "Team Moments"
+    },
+    "teamGalleryIntervalSeconds": {
+      "type": "integer",
+      "default": 500,
+      "min": 1
     }
   }
 }

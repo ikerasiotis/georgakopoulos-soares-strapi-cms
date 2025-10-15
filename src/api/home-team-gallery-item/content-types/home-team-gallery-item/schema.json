@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_team_gallery_items",
+  "info": {
+    "singularName": "home-team-gallery-item",
+    "pluralName": "home-team-gallery-items",
+    "displayName": "Home Team Gallery Item",
+    "description": "Images and labels displayed in the homepage team gallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "caption": {
+      "type": "text"
+    },
+    "photoAltText": {
+      "type": "string"
+    }
+  }
+}

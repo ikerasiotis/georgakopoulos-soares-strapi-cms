@@ -683,6 +683,14 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    heroPrimaryCtaHref: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'/research'>;
+    heroPrimaryCtaLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Our Research'>;
+    heroSecondaryCtaHref: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'/publications'>;
+    heroSecondaryCtaLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Our Publications'>;
     heroSubtitle: Schema.Attribute.String &
       Schema.Attribute.DefaultTo<'Decoding cancer genomics through computational biology'>;
     heroTitle: Schema.Attribute.String &
@@ -694,6 +702,67 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
       'api::home-page.home-page'
     > &
       Schema.Attribute.Private;
+    newsSectionReadMoreLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Read more'>;
+    newsSectionTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Lab News & Updates'>;
+    newsSectionViewAllLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Read more news'>;
+    publicationsSectionTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Recent Publications'>;
+    publicationsSectionViewAllLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'View all publications'>;
+    publishedAt: Schema.Attribute.DateTime;
+    researchHighlightsCtaHref: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'/research'>;
+    researchHighlightsCtaLabel: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Learn more'>;
+    researchHighlightsTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Research Highlights'>;
+    teamGalleryIntervalSeconds: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 1;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<500>;
+    teamGalleryTitle: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Team Moments'>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiHomeTeamGalleryItemHomeTeamGalleryItem
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'home_team_gallery_items';
+  info: {
+    description: 'Images and labels displayed in the homepage team gallery';
+    displayName: 'Home Team Gallery Item';
+    pluralName: 'home-team-gallery-items';
+    singularName: 'home-team-gallery-item';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    active: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    caption: Schema.Attribute.Text;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::home-team-gallery-item.home-team-gallery-item'
+    > &
+      Schema.Attribute.Private;
+    name: Schema.Attribute.String & Schema.Attribute.Required;
+    order: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    photo: Schema.Attribute.Media<'images'>;
+    photoAltText: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -1542,6 +1611,7 @@ declare module '@strapi/strapi' {
       'api::database.database': ApiDatabaseDatabase;
       'api::global-setting.global-setting': ApiGlobalSettingGlobalSetting;
       'api::home-page.home-page': ApiHomePageHomePage;
+      'api::home-team-gallery-item.home-team-gallery-item': ApiHomeTeamGalleryItemHomeTeamGalleryItem;
       'api::news-article.news-article': ApiNewsArticleNewsArticle;
       'api::news-page.news-page': ApiNewsPageNewsPage;
       'api::publication.publication': ApiPublicationPublication;
